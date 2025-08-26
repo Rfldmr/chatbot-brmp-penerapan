@@ -1,0 +1,205 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar-logo {
+    height: 68px; /* Mengurangi tinggi logo agar lebih proporsional */
+    width: auto; /* Menjaga aspect ratio */
+    object-fit: contain; /* Memastikan gambar tidak terdistorsi */
+    padding: 5px 0;
+}
+
+.navbar {
+    min-height: auto !important;
+    padding: 0.5rem 0; /* Menambah padding atas bawah */
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+/* Perbaikan spacing untuk item navigasi */
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 0 0.5rem; /* Menambah margin horizontal */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Untuk tampilan mobile */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding: 1rem 0;
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 0.25rem 0;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.message-bubble {
+    max-width: 70%;
+    border-radius: 18px;
+    padding: 12px 16px;
+    margin: 5px 0;
+}
+
+.user-message .message-bubble {
+    background-color: #e0940c !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.assistant-message .message-bubble {
+    background-color: #f8f9fa !important;
+    color: #000 !important;
+    border: 1px solid #dee2e6 !important;
+}
+
+.user-message .message-bubble {
+    border-bottom-right-radius: 5px;
+}
+
+.assistant-message .message-bubble {
+    border-bottom-left-radius: 5px;
+}
+
+/* Untuk alignment yang benar */
+.user-message {
+    justify-content: flex-end !important;
+}
+
+.assistant-message {
+    justify-content: flex-start !important;
+}
+
+.typing-dots {
+    display: flex;
+    align-items: center;
+    height: 17px;
+}
+
+.typing-dots span {
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: #6c757d;
+    border-radius: 50%;
+    display: inline-block;
+    animation: typing-dots 1.4s infinite ease-in-out both;
+}
+
+.typing-dots span:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.typing-dots span:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+@keyframes typing-dots {
+    0%, 80%, 100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.btn-primary {
+    background-color: #e0940c !important;
+    border-color: #e0940c !important;
+}
+
+.btn-primary:hover {
+    background-color: #c98208 !important;
+    border-color: #c98208 !important;
+}
+
+#chat-container {
+    background-color: #f8f9fa;
+}
+
+#user-input:focus {
+    border-color: #e0940c;
+    box-shadow: 0 0 0 0.2rem rgba(219, 172, 4, 0.248);
+}
+
+/* Menambahkan padding untuk card-body agar tidak terlalu mepet */
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Memperbaiki margin untuk card header */
+.card-header {
+    padding: 0.75rem 1.5rem;
+}
+
+/* Memastikan form input memiliki spacing yang cukup */
+#chat-form {
+    margin-top: 1rem;
+}
+
+/* Gaya untuk logo chat di header */
+.chat-logo-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.chat-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+/* Status online indicator */
+.online-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #28a745;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.online-text {
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+
+/* Penyesuaian alignment */
+.card-header .d-flex.align-items-center {
+    gap: 12px;
+}
+
+.profile-info {
+    margin-left: -395px;
+}

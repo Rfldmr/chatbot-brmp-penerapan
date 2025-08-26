@@ -1,0 +1,78 @@
+{
+    "intents": [
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "hi",
+                "halo",
+                "hello",
+                "hai",
+                "hey",
+                "permisi",
+                "assalamualaikum",
+                "punten",
+                "misi",
+                "hei"
+            ],
+            "responses": [
+                "Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+            ]
+        },
+
+        {
+            "tag": "sapaan-pagi",
+            "patterns": [
+                "selamat pagi",
+                "pagi",
+                "met pagi",
+                "pagiii",
+                "morning",
+                "good morning"
+            ],
+            "responses": [
+                "Selamat pagi! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+            ]
+        },
+        
+        {
+            "tag": "sapaan-siang",
+            "patterns": [
+                "selamat siang",
+                "siang",
+                "met siang",
+                "sianggg",
+                "good afternoon"
+            ],
+            "responses": [
+                "Selamat siang! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+            ]
+        },
+
+        {
+            "tag": "sapaan-sore",
+            "patterns": [
+                "selamat sore",
+                "sore",
+                "met sore",
+                "soreee"
+            ],
+            "responses": [
+                "Selamat sore! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+            ]
+        },
+
+        {
+            "tag": "sapaan-malam",
+            "patterns": [
+                "selamat malam",
+                "malam",
+                "met malam",
+                "malammm",
+                "good evening"
+            ],
+            "responses": [
+                "Selamat malam! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+            ]
+        }
+    ]
+}
