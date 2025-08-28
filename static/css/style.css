@@ -11,7 +11,7 @@ body {
 
 /* LOGO YANG DIPERBESAR */
 .navbar-logo {
-    height: 68px; /* Diperbesar dari 68px */
+    height: 68px;
     width: auto;
     object-fit: contain;
     padding: 5px 0;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-    min-height: 90px !important; /* Navbar lebih tinggi */
+    min-height: 90px !important;
     padding: 0.5rem 1rem;
 }
 
@@ -63,56 +63,6 @@ body {
     width: 100%;
 }
 
-/* Untuk tampilan mobile */
-@media (max-width: 991.98px) {
-    .navbar-nav {
-        padding: 1rem 0;
-        text-align: center;
-    }
-    
-    .navbar-nav .nav-link {
-        margin: 0.5rem 0;
-        display: block;
-    }
-    
-    .navbar-nav .nav-link::after {
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 2px;
-    }
-    
-    .navbar-nav .nav-link:hover::after {
-        width: 50%;
-    }
-    
-    /* Logo sedikit lebih kecil di mobile */
-    .navbar-logo {
-        height: 60px;
-    }
-    
-    .navbar {
-        min-height: 70px !important;
-    }
-}
-
-@media (max-width: 576px) {
-    .navbar {
-        padding: 0.5rem;
-    }
-    
-    /* Logo lebih kecil di perangkat sangat kecil */
-    .navbar-logo {
-        height: 50px;
-    }
-    
-    .navbar {
-        min-height: 60px !important;
-    }
-}
-
-/* [Kode CSS lainnya tetap sama seperti sebelumnya] */
 .card {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: none;
@@ -386,7 +336,7 @@ body {
     min-width: 20px;
 }
 
-/* Responsive adjustments */
+/* PERBAIKAN RESPONSIVITAS - Header tetap horizontal di mobile */
 @media (max-width: 1200px) {
     .profile-info {
         margin-left: 0;
@@ -400,21 +350,60 @@ body {
         padding-right: 15px;
     }
     
-    .profile-info {
-        text-align: center;
-        margin: 10px 0;
-        min-width: 100%;
+    /* Header chat tetap horizontal */
+    .card-header {
+        flex-direction: row !important;
+        padding: 0.6rem 1rem !important;
     }
     
-    .card-header .d-flex {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .profile-info {
+        min-width: auto !important;
+        text-align: left !important;
+        margin: 0 10px !important;
+        flex: 1;
+    }
+    
+    .profile-info h5 {
+        font-size: 0.95rem !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .online-text {
+        font-size: 0.7rem !important;
     }
     
     #reset-chat {
-        margin-top: 10px;
-        align-self: center;
+        margin-top: 0 !important;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        align-self: center !important;
+    }
+    
+    .chat-logo-container {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .chat-logo {
+        width: 25px;
+        height: 25px;
+    }
+    
+    /* Navbar tetap horizontal */
+    .navbar-nav {
+        padding: 0.5rem 0;
+        text-align: left;
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 0.25rem 0;
+        display: inline-block;
+        padding: 0.4rem 0.8rem;
+        font-size: 13px;
+    }
+    
+    .navbar-nav .nav-link::after {
+        display: none;
     }
     
     .footer .row > div {
@@ -446,36 +435,55 @@ body {
         padding: 1rem;
     }
     
+    /* Header chat lebih kecil */
     .card-header {
-        padding: 0.75rem 1rem;
-        flex-direction: column;
-        text-align: center;
+        padding: 0.5rem 0.8rem !important;
+    }
+    
+    .profile-info h5 {
+        font-size: 0.9rem !important;
+    }
+    
+    #reset-chat {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.4rem;
     }
     
     .footer h5, .footer h6 {
-        text-align: center;
+        text-align: left !important;
     }
     
     .footer ul.list-unstyled {
-        text-align: center;
+        text-align: left !important;
     }
     
     .footer ul.list-unstyled.text-muted li {
-        justify-content: center;
-        text-align: left;
-        display: flex;
+        justify-content: flex-start !important;
     }
 }
 
 @media (max-width: 576px) {
-    .navbar-nav .nav-link {
+    .navbar {
         padding: 0.5rem;
-        font-size: 13px;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.4rem 0.6rem;
+        font-size: 12px;
     }
     
     .navbar-toggler {
         padding: 0.25rem 0.5rem;
         font-size: 0.875rem;
+    }
+    
+    /* Logo lebih kecil di perangkat sangat kecil */
+    .navbar-logo {
+        height: 50px;
+    }
+    
+    .navbar {
+        min-height: 70px !important;
     }
     
     #chat-container {
@@ -486,6 +494,44 @@ body {
     .message-bubble {
         padding: 10px 14px;
         font-size: 0.9rem;
+    }
+    
+    /* Header chat lebih kecil lagi */
+    .card-header {
+        padding: 0.4rem 0.6rem !important;
+    }
+    
+    .profile-info {
+        margin: 0 8px !important;
+    }
+    
+    .profile-info h5 {
+        font-size: 0.85rem !important;
+    }
+    
+    .online-text {
+        font-size: 0.65rem !important;
+    }
+    
+    #reset-chat {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.3rem;
+    }
+    
+    .chat-logo-container {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .chat-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .online-status {
+        width: 8px;
+        height: 8px;
+        border-width: 1px;
     }
     
     .float-whatsapp {
@@ -527,30 +573,32 @@ body {
 
 @media (max-width: 400px) {
     .navbar-logo {
-        height: 35px;
+        height: 40px;
     }
     
-    .chat-logo-container {
-        width: 35px;
-        height: 35px;
-    }
-    
-    .chat-logo {
-        width: 25px;
-        height: 25px;
+    .navbar {
+        min-height: 60px !important;
     }
     
     .profile-info h5 {
-        font-size: 1rem;
+        font-size: 0.8rem !important;
     }
     
-    #reset-chat {
-        font-size: 0.8rem;
-        padding: 0.25rem 0.5rem;
+    /* Sembunyikan teks "Reset Obrolan", hanya tampilkan icon */
+    #reset-chat span {
+        display: none;
+    }
+    
+    #reset-chat i {
+        margin-right: 0 !important;
     }
     
     #user-input {
         font-size: 0.9rem;
+    }
+    
+    #user-input::placeholder {
+        font-size: 0.8rem;
     }
 }
 
