@@ -15,7 +15,7 @@
                 "hei"
             ],
             "responses": [
-                "Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+                "Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
             ]
         },
 
@@ -30,7 +30,7 @@
                 "good morning"
             ],
             "responses": [
-                "Selamat pagi! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+                "Selamat pagi! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
             ]
         },
         
@@ -44,7 +44,7 @@
                 "good afternoon"
             ],
             "responses": [
-                "Selamat siang! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+                "Selamat siang! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
             ]
         },
 
@@ -57,7 +57,7 @@
                 "soreee"
             ],
             "responses": [
-                "Selamat sore! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+                "Selamat sore! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
             ]
         },
 
@@ -71,7 +71,7 @@
                 "good evening"
             ],
             "responses": [
-                "Selamat malam! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa saya bantu hari ini?"
+                "Selamat malam! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
             ]
         },
 
@@ -81,9 +81,7 @@
               ""
           ],
           "responses": [
-              "Maaf, aku tidak mengerti maksudmu. Sepertinya aku belum belajar terkait pertanyaan yang kamu berikan. Kamu bisa menanyakan hal lainnya, atau meminta kontak customer service untuk menjawab lebih lanjut terkait pertanyaannmu. Terima kasih.",
-              "Maaf, aku tidak memahami maksudmu. Aku masih perlu belajar lebih banyak lagi kedepannya. Cobalah untuk menanyakan hal lainnya, atau kamu juga bisa meminta kontak customer service untuk membantumu lebih lanjut terkait dengan masalahmu.",
-              "Maaf, aku kesulitan untuk memahami maksudmu. Aku mengerti ini mungkin mengecewakan. Kamu bisa menanyakan pertanyaan lainnya atau meminta kontak customer service jika ingin menanyakan pertanyaanmu lebih lanjut lagi. Terima kasih."
+              ""
           ]
         }
     ]
