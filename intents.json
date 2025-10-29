@@ -1,6 +1,16 @@
 {
     "intents": [
         {
+            "tag": "salam",
+            "patterns": [
+                "assalamualaikum"
+            ],
+            "responses": [
+                "Wa'alaikumsalam. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan informasi yang Anda butuhkan."
+            ]
+        },
+
+        {
             "tag": "sapaan",
             "patterns": [
                 "hi",
@@ -9,80 +19,1293 @@
                 "hai",
                 "hey",
                 "permisi",
-                "assalamualaikum",
                 "punten",
                 "misi",
                 "hei"
             ],
             "responses": [
-                "Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
+                "Halo. Saya asisten virtual BRMP Penerapan, siap membantu Anda. Apa yang bisa saya bantu untuk Anda hari ini?",
+                "Hai. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan pertanyaan Anda.",
+                "Hai. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan pertanyaan atau informasi yang Anda butuhkan.",
+                "Halo. Dengan saya, asisten virtual BRMP Penerapan. Informasi apa yang sedang Anda cari terkait layanan kami?",
+                "Hai. Terima kasih telah menghubungi BRMP Penerapan. Silakan sampaikan keperluan Anda, dan saya akan berusaha membantu."
             ]
         },
 
         {
-            "tag": "sapaan-pagi",
+            "tag": "selamat-pagi",
             "patterns": [
                 "selamat pagi",
                 "pagi",
                 "met pagi",
-                "pagiii",
                 "morning",
                 "good morning"
             ],
             "responses": [
-                "Selamat pagi! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
+                "Selamat pagi. Anda terhubung dengan asisten virtual BRMP Penerapan. Ada yang bisa saya bantu?",
+                "Selamat pagi. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan informasi yang Anda butuhkan.",
+                "Selamat pagi. Saya asisten virtual BRMP Penerapan, siap membantu Anda. Apakah ada pertanyaan terkait layanan kami?",
+                "Selamat pagi. Terima kasih telah menghubungi BRMP Penerapan. Layanan informasi apa yang Anda perlukan hari ini?", 
+                "Selamat pagi. Dengan saya, asisten virtual BRMP Penerapan. Silakan sampaikan keperluan Anda."
             ]
         },
-        
+
         {
-            "tag": "sapaan-siang",
+            "tag": "selamat-siang",
             "patterns": [
                 "selamat siang",
                 "siang",
                 "met siang",
-                "sianggg",
+                "afternoon",
                 "good afternoon"
             ],
             "responses": [
-                "Selamat siang! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
+                "Selamat siang. Anda terhubung dengan asisten virtual BRMP Penerapan. Ada yang bisa saya bantu?",
+                "Selamat siang. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan informasi yang Anda butuhkan.",
+                "Selamat siang. Saya asisten virtual BRMP Penerapan, siap membantu Anda. Apakah ada pertanyaan terkait layanan kami?",
+                "Selamat siang. Terima kasih telah menghubungi BRMP Penerapan. Layanan informasi apa yang Anda perlukan hari ini?", 
+                "Selamat siang. Dengan saya, asisten virtual BRMP Penerapan. Silakan sampaikan keperluan Anda."
             ]
         },
 
         {
-            "tag": "sapaan-sore",
+            "tag": "selamat-sore",
             "patterns": [
                 "selamat sore",
                 "sore",
                 "met sore",
-                "soreee"
+                "evening",
+                "good evening"
             ],
             "responses": [
-                "Selamat sore! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
+                "Selamat sore. Anda terhubung dengan asisten virtual BRMP Penerapan. Ada yang bisa saya bantu?",
+                "Selamat sore. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan informasi yang Anda butuhkan.",
+                "Selamat sore. Saya asisten virtual BRMP Penerapan, siap membantu Anda. Apakah ada pertanyaan terkait layanan kami?",
+                "Selamat sore. Terima kasih telah menghubungi BRMP Penerapan. Layanan informasi apa yang Anda perlukan hari ini?", 
+                "Selamat sore. Dengan saya, asisten virtual BRMP Penerapan. Silakan sampaikan keperluan Anda."
             ]
         },
 
         {
-            "tag": "sapaan-malam",
+            "tag": "selamat-malam",
             "patterns": [
                 "selamat malam",
                 "malam",
                 "met malam",
-                "malammm",
+                "night",
                 "good evening"
             ],
             "responses": [
-                "Selamat malam! Selamat datang di layanan chatbot BRMP Penerapan. Ada yang bisa aku bantu hari ini?"
+                "Selamat malam. Anda terhubung dengan asisten virtual BRMP Penerapan. Ada yang bisa saya bantu?",
+                "Selamat malam. Selamat datang di Layanan Informasi Publik BRMP Penerapan. Silakan sampaikan informasi yang Anda butuhkan.",
+                "Selamat malam. Saya asisten virtual BRMP Penerapan, siap membantu Anda. Apakah ada pertanyaan terkait layanan kami?",
+                "Selamat malam. Terima kasih telah menghubungi BRMP Penerapan. Layanan informasi apa yang Anda perlukan hari ini?", 
+                "Selamat malam. Dengan saya, asisten virtual BRMP Penerapan. Silakan sampaikan keperluan Anda."
             ]
         },
 
         {
-          "tag": "diluar-konteks",
-          "patterns": [
-              ""
-          ],
-          "responses": [
-              ""
-          ]
+            "tag": "terima-kasih",
+            "patterns": [
+                "terima kasih",
+                "makasih",
+                "thanks",
+                "thank you",
+                "thx",
+                "makasi",
+                "nuhun",
+                "hatur nuhun",
+                "terima kasih banyak",
+                "keren banget",
+                "bagus banget",
+                "mantap banget"
+            ],
+            "responses": [
+                "Sama-sama. Apakah ada hal lain yang bisa saya bantu untuk Anda?",
+                "Dengan senang hati. Saya di sini untuk membantu. Jika ada pertanyaan lebih lanjut, silakan sampaikan.",
+                "Terima kasih kembali. Senang bisa membantu Anda. Jangan ragu untuk menghubungi kami lagi jika Anda memerlukan bantuan.",
+                "Terima kasih kembali. Saya konfirmasi bahwa permintaan Anda telah selesai diproses. Silakan hubungi kami lagi jika butuh bantuan.",
+                "Terima kasih atas apresiasi Anda. Kami berkomitmen untuk memberikan layanan terbaik. Apakah ada pertanyaan lain saat ini?"
+            ]
+        },
+
+
+        {
+            "tag": "no-toxic",
+            "patterns": [
+                "anjing",
+                "babi",
+                "kontol",
+                "bangsat",
+                "memek",
+                "tolol",
+                "idiot",
+                "bodoh",
+                "bego",
+                "lonte",
+                "puki",
+                "titit",
+                "vagina",
+                "goblok",
+                "yatim",
+                "sarap",
+                "brengsek",
+                "tai",
+                "jancuk",
+                "kampret",
+                "asu",
+                "bajingan",
+                "cacat",
+                "bacot",
+                "autis"
+            ],
+            "responses": [
+                "Saya mendeteksi penggunaan bahasa yang kurang pantas. Mohon gunakan bahasa yang sopan agar percakapan dapat kita lanjutkan secara profesional. Apa ada yang bisa saya bantu terkait layanan kami?",
+                "Mohon maaf, saya mendeteksi penggunaan bahasa yang kurang pantas. Sebagai layanan informasi resmi, kami mengutamakan komunikasi yang profesional. Mohon sampaikan kembali pertanyaan Anda dengan bahasa yang lebih sopan agar saya dapat membantu.",
+                "Mohon maaf jika ada kendala dalam layanan. Namun, saya tidak dapat merespons bahasa yang tidak pantas. Silakan jelaskan permasalahan atau pertanyaan Anda dengan baik, dan saya akan berusaha semaksimal mungkin untuk membantu.",
+                "Kami memahami Anda mungkin memiliki keluhan, namun etika layanan kami mengharuskan percakapan tetap profesional. Bahasa yang Anda gunakan tidak dapat kami respons. Silakan ulangi pertanyaan Anda dengan baik.",
+                "Sebagai bagian dari komitmen kami terhadap etika layanan publik, kami hanya dapat merespons pertanyaan yang disampaikan dengan bahasa yang sopan dan profesional. Mohon sampaikan kembali maksud Anda."
+            ]
+        },
+
+        {
+            "tag": "kontak-admin",
+            "patterns": [
+                "bagaimana cara menghubungi admin brmp penerapan",
+                "kontak admin brmp penerapan",
+                "hubungi admin brmp penerapan",
+                "cara menghubungi admin brmp penerapan",
+                "nomor admin brmp penerapan",
+                "email admin brmp penerapan",
+                "Whatsapp admin brmp penerapan",
+                "nomor whatsapp admin brmp penerapan",
+                "nomor wa admin brmp penerapan",
+                "kontak admin",
+                "minta kontak admin",
+                "bagaimana cara menghubungi admin",
+                "minta nomor admin",
+                "minta email admin",
+                "minta nomor",
+                "minta email"
+            ],
+            "responses": [
+                "Untuk menghubungi layanan admin kami, silakan gunakan kontak berikut:\n\n**- WhatsApp:** 085183071943\n**- Email:** brmp.penerapan@pertanian.go.id",
+                "Layanan admin kami dapat dihubungi melalui dua saluran: WhatsApp di **085183071943** atau Email di **brmp.penerapan@pertanian.go.id**.",
+                "Silakan hubungi layanan admin kami apabila memerlukan bantuan lebih lanjut. Anda dapat mengirimkan pesan ke WhatsApp **085183071943** atau mengirimkan email ke **brmp.penerapan@pertanian.go.id**.",
+                "Anda dapat berkomunikasi dengan admin kami melalui WhatsApp di nomor **085183071943** serta melalui alamat email resmi kami: **brmp.penerapan@pertanian.go.id**.",
+                "Tentu, silakan catat kontak layanan admin kami:\n\n**- WhatsApp:** 085183071943\n**- Email:** brmp.penerapan@pertanian.go.id"
+            ]
+        },
+
+        {
+            "tag": "diluar-konteks",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Kami mohon maaf, sistem belum memiliki informasi spesifik yang Anda minta. Untuk data yang belum tercakup di sini, Anda dapat berkonsultasi langsung dengan admin kami melalui email **brmp.penerapan@pertanian.go.id** atau WhatsApp **085183071943**.",
+                "Maaf, detail yang Anda tanyakan saat ini belum saya pelajari. Untuk pertanyaan yang memerlukan data lebih lengkap atau penanganan teknis, silakan teruskan ke tim admin kami di WhatsApp **085183071943** atau email **brmp.penerapan@pertanian.go.id**.",
+                "Mohon maaf, jawaban atas pertanyaan tersebut saat ini belum tersedia di basis pengetahuan saya. Jika Anda memerlukan bantuan lebih spesifik, kami sarankan untuk menghubungi admin kami via email di **brmp.penerapan@pertanian.go.id** atau WhatsApp **085183071943**.",
+                "Kami mohon maaf, data yang Anda cari belum tercatat dalam sistem saya saat ini. Untuk informasi lebih lanjut atau hal-hal yang belum saya cakup, silakan hubungi petugas layanan kami di WhatsApp **085183071943** atau email **brmp.penerapan@pertanian.go.id**.",
+                "Saat ini, informasi tersebut belum dimuat ke dalam sistem saya. Untuk pertanyaan yang lebih mendalam atau data yang belum tersedia di chatbot ini, silakan hubungi layanan admin kami melalui WhatsApp **085183071943** dan juga Email **brmp.penerapan@pertanian.go.id**."
+            ]
+        },
+
+        {
+            "tag": "apa-itu-brmp-penerapan",
+            "patterns": [
+                "BRMP Penerapan",
+                "Apa itu BRMP Penerapan?",
+                "Jelaskan BRMP Penerapan",
+                "BRMP Penerapan itu apa?",
+                "Definisi BRMP Penerapan",
+                "Informasi tentang BRMP Penerapan",
+                "Penjelasan mengenai BRMP Penerapan",
+                "Ceritakan tentang BRMP Penerapan",
+                "BRMP Penerapan adalah apa?"
+            ],
+            "responses": [
+                "BRMP Penerapan adalah kependekan dari Balai Pengembangan dan Penerapan Modernisasi Pertanian Penerapan. Kami adalah sebuah Unit Pelaksana Teknis (UPT) di bawah naungan Badan Perakitan dan Modernisasi Pertanian (BRMP), Kementerian Pertanian Republik Indonesia.",
+                "BRMP Penerapan merupakan salah satu Unit Pelaksana Teknis (UPT) di lingkungan Kementerian Pertanian Republik Indonesia. Kami berada di bawah Badan Perakitan dan Modernisasi Pertanian (BRMP) dan memiliki nama lengkap Balai Pengembangan dan Penerapan Modernisasi Pertanian Penerapan.",
+                "Balai Pengembangan dan Penerapan Modernisasi Pertanian Penerapan (disingkat BRMP Penerapan) adalah Unit Pelaksana Teknis (UPT). UPT ini berada di bawah koordinasi Badan Perakitan dan Modernisasi Pertanian (BRMP), yang merupakan bagian dari Kementerian Pertanian Republik Indonesia.",
+                "BRMP Penerapan adalah salah satu Unit Pelaksana Teknis (UPT) dari Badan Perakitan dan Modernisasi Pertanian (BRMP), Kementerian Pertanian Republik Indonesia. Nama resmi kami adalah Balai Pengembangan dan Penerapan Modernisasi Pertanian Penerapan.",
+                "BRMP Penerapan merupakan sebuah Unit Pelaksana Teknis (UPT) yang bernaung di bawah Badan Perakitan dan Modernisasi Pertanian (BRMP), Kementerian Pertanian Republik Indonesia. Adapun kepanjangan dari BRMP Penerapan adalah Balai Pengembangan dan Penerapan Modernisasi Pertanian Penerapan."
+            ]
+        },
+
+        {
+            "tag": "tugas-brmp-penerapan",
+            "patterns": [
+                "Tugas BRMP Penerapan",
+                "Apa tugas BRMP Penerapan?",
+                "Jelaskan tugas BRMP Penerapan",
+                "Tugas BRMP Penerapan itu apa?"
+            ],
+            "responses": [
+                "Tugas utama BRMP Penerapan adalah melaksanakan pengembangan, penerapan hasil perakitan dan perekayasaan paket teknologi, serta modernisasi pertanian.",
+                "BRMP Penerapan bertugas untuk melakukan pengembangan, menerapkan hasil perakitan dan perekayasaan paket teknologi, dan juga melaksanakan modernisasi pertanian.",
+                "Tugas pokok BRMP Penerapan meliputi pelaksanaan pengembangan, penerapan hasil perakitan dan perekayasaan paket teknologi, serta modernisasi di bidang pertanian.",
+                "Fokus tugas kami adalah melaksanakan modernisasi pertanian, serta melakukan pengembangan dan penerapan atas hasil perakitan maupun perekayasaan paket teknologi.",
+                "Sesuai fungsinya, BRMP Penerapan bertugas untuk: melaksanakan pengembangan; menerapkan hasil perakitan dan perekayasaan paket teknologi; serta melaksanakan modernisasi pertanian."
+            ]
+        },
+
+        {
+            "tag": "fungsi-brmp-penerapan",
+            "patterns": [
+                "Fungsi BRMP Penerapan",
+                "Apa fungsi BRMP Penerapan",
+                "Jelaskan fungsi BRMP Penerapan",
+                "Fungsi BRMP Penerapan itu apa?"
+
+            ],
+            "responses": [
+                "Dalam melaksanakan tugasnya, sebagaimana diatur dalam Pasal 37, BRMP Penerapan menyelenggarakan beberapa fungsi sebagai berikut:\n\n1. penyusunan rencana program, anggaran, dan kerja sama di bidang pengembangan dan penerapan modernisasi pertanian \n\n2. pelaksanaan perekayasaan dan pengembangan paket teknologi spesifik lokasi \n\n3. pelaksanaan koordinasi penerapan hasil perakitan dan modernisasi pertanian \n\n4. pelaksanaan penerapan, diseminasi, dan bimbingan teknis modernisasi pertanian \n\n5. pelaksanaan pengembangan metode dan pengelolaan produksi benih/bibit sumber spesifik lokasi \n\n6. pelaksanaan identifikasi dan penyusunan model pertanian modern \n\n7. pelaksanaan penilaian kesesuaian Standar Nasional Indonesia di bidang pengembangan dan penerapan modernisasi pertanian \n\n8. pelaksanaan pemantauan, evaluasi dan pelaporan di bidang pengembangan dan penerapan modernisasi pertanian \n\n9. pelaksanaan urusan tata usaha dan rumah tangga Balai Besar Pengembangan dan Penerapan Modernisasi Pertanian."
+            ]
+        },
+
+        {
+            "tag": "alamat-brmp-penerapan",
+            "patterns": [
+                "Alamat BRMP Penerapan",
+                "Dimana lokasi BRMP Penerapan?",
+                "Jelaskan alamat BRMP Penerapan",
+                "Alamat lengkap BRMP Penerapan itu dimana?",
+                "Lokasi BRMP Penerapan",
+                "Dimana BRMP Penerapan berada?",
+                "BRMP Penerapan ada dimana?",
+                "BRMP Penerapan berlokasi dimana?",
+                "BRMP Penerapan terletak dimana?"
+
+            ],
+            "responses": [
+                "Kantor BRMP Penerapan berlokasi di Jl. Tentara Pelajar No.10, RT.01/RW.07, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124. Untuk kemudahan navigasi, Anda dapat mencarinya di Google Maps menggunakan kata kunci 'BRMP Penerapan'.",
+                "Anda dapat menemukan BRMP Penerapan di alamat: Jl. Tentara Pelajar No.10, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16124. Jika menggunakan Google Maps, cukup ketik 'BRMP Penerapan' pada kolom pencarian.",
+                "BRMP Penerapan beralamat di Jl. Tentara Pelajar No.10, RT.01/RW.07, Ciwaringin, Kec. Bogor Tengah, Kota Bogor, Jawa Barat 16124. Lokasi kami sudah terdaftar di Google Maps, silakan gunakan kata kunci 'BRMP Penerapan' untuk arahan.",
+                "Lokasi kami berada di Jl. Tentara Pelajar No.10, Kota Bogor, Jawa Barat 16124 (Kecamatan Bogor Tengah, Kelurahan Ciwaringin). Untuk melihat rute, Anda bisa mencarinya di Google Maps dengan kata kunci 'BRMP Penerapan'.",
+                "Alamat lengkap BRMP Penerapan adalah Jl. Tentara Pelajar No.10, RT.01/RW.07, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, 16124. Gunakan kata kunci 'BRMP Penerapan' di aplikasi Google Maps untuk menemukan lokasi kami."
+            ]
+        },
+
+        {
+            "tag": "jam-operasional-brmp-penerapan",
+            "patterns": [
+                "Jam operasional BRMP Penerapan kapan?",
+                "Jam buka BRMP Penerapan",
+                "Jam kerja BRMP Penerapan",
+                "Jam layanan BRMP Penerapan",
+                "Jam operasional BRMP Penerapan",
+                "Jam buka layanan BRMP Penerapan",
+                "Jam kerja layanan BRMP Penerapan",
+                "kapan BRMP Penerapan buka",
+                "kapan BRMP Penerapan tutup",
+                "kapan BRMP Penerapan beroperasi",
+                "Jam berapa BRMP Penerapan buka",
+                "Jam berapa BRMP Penerapan tutup",
+                "Jam berapa BRMP Penerapan beroperasi",
+                "Buka jam berapa BRMP Penerapan",
+                "Tutup jam berapa BRMP Penerapan",
+                "Jam operasional BRMP Penerapan hari"
+
+            ],
+            "responses": [
+                "Layanan administrasi BRMP Penerapan buka pada:\n\n**1. Senin - Kamis:** Pukul 07.00 - 16.00 WIB\n2. Jumat: Pukul 07.30 - 16.30 WIB",
+                "Jam operasional layanan administrasi kami adalah hari Senin sampai Kamis, pukul 07.00 hingga 16.00 WIB. Khusus hari Jumat, kami buka pukul 07.30 hingga 16.30 WIB, mengikuti jam kerja ASN.",
+                "Kami melayani pada hari kerja (Senin-Jumat). Untuk hari Senin sampai Kamis, layanan dibuka pukul 07.00-16.00 WIB. Untuk hari Jumat, layanan dibuka pukul 07.30-16.30 WIB.",
+                "Mengikuti jam kerja ASN, layanan administrasi BRMP Penerapan beroperasi pada hari kerja. Jam buka kami adalah Senin-Kamis (07.00-16.00 WIB) dan Jumat (07.30-16.30 WIB).",
+                "Jam layanan kami adalah:\n\n**1. Senin s/d Kamis:** 07.00 - 16.00 WIB.\n**2. Jumat:** 07.30 - 16.30 WIB. (Layanan kami mengikuti jam kerja ASN yang berlaku)."
+            ]
+        },
+
+        {
+            "tag": "apakah-sabtu-minggu-libur",
+            "patterns": [
+                "Apakah BRMP Penerapan buka di hari Sabtu/Minggu atau hari libur nasional?",
+                "Hari Sabtu BRMP Penerapan buka tidak?",
+                "Hari Minggu BRMP Penerapan buka tidak?",
+                "Apakah BRMP Penerapan tutup di hari libur nasional?",
+                "Apakah BRMP Penerapan buka di hari libur nasional?",
+                "Apakah BRMP Penerapan buka di hari Sabtu?",
+                "Apakah BRMP Penerapan buka di hari Minggu?",
+                "Apakah BRMP Penerapan buka di hari libur?"
+            ],
+            "responses": [
+                "Mohon diperhatikan, layanan administrasi kami untuk publik hanya tersedia pada hari kerja. Namun, kegiatan internal seperti penelitian atau proyek tertentu bisa saja tetap berjalan di luar jam layanan tersebut.",
+                "Layanan administrasi BRMP Penerapan hanya dapat diakses pada hari kerja. Meskipun demikian, beberapa kegiatan teknis seperti proyek atau penelitian di lokasi mungkin memiliki jadwal tersendiri dan berlangsung di luar jam kerja administrasi.",
+                "Perlu diketahui, layanan administrasi kami hanya buka pada hari kerja. Aktivitas lain seperti penelitian atau proyek internal mungkin saja tetap berjalan di luar jam tersebut sesuai kebutuhan teknis.",
+                "Layanan administrasi BRMP Penerapan hanya tersedia pada hari kerja. Namun, beberapa kegiatan teknis seperti penelitian atau proyek tertentu mungkin tetap berlangsung di luar jam layanan tersebut.",
+                "Kami hanya melayani administrasi pada hari kerja. Namun, beberapa kegiatan teknis seperti penelitian atau proyek tertentu mungkin tetap berlangsung di luar jam layanan tersebut."
+            ]
+        },
+
+        {
+            "tag": "layanan-brmp-penerapan",
+            "patterns": [
+                "Layanan apa saja yang tersedia di BRMP Penerapan?",
+                "Apa saja layanan yang diberikan oleh BRMP Penerapan?",
+                "Jenis layanan apa yang ada di BRMP Penerapan?",
+                "Layanan BRMP Penerapan",
+                "Layanan yang disediakan BRMP Penerapan",
+                "Layanan yang tersedia di BRMP Penerapan",
+                "Layanan yang diberikan BRMP Penerapan",
+                "Layanan BRMP Penerapan apa saja?",
+                "Jenis layanan BRMP Penerapan",
+                "Jenis layanan yang ada di BRMP Penerapan",
+                "Jenis layanan yang disediakan BRMP Penerapan"
+            ],
+            "responses": [
+                "Dalam rangka mendukung dan mengakselerasi adopsi teknologi serta modernisasi sektor pertanian nasional, BRMP Penerapan menyediakan serangkaian layanan profesional yang terstruktur. Layanan kami dirancang untuk menjembatani antara inovasi teknologi dan implementasi praktis di lapangan, guna mewujudkan pertanian yang lebih maju, efisien, dan berkelanjutan.\n\nBerikut adalah rincian layanan utama yang kami tawarkan:\n\n**1. Layanan Perekayasaan dan Pengembangan Paket Teknologi Modern Spesifik Lokasi**\nFokus pada perancangan dan adaptasi teknologi pertanian modern yang disesuaikan secara khusus dengan kondisi dan kebutuhan agroekosistem di lokasi target.\n\n**2. Layanan Pendampingan, Penerapan, dan Diseminasi Hasil Perakitan Modernisasi Pertanian**\n Menyediakan dukungan komprehensif untuk memastikan teknologi hasil perakitan dapat diterapkan secara efektif oleh pengguna akhir. Layanan ini mencakup:\n     - Layanan Konsultasi dan Jasa Narasumber Ahli\n     - Program Kemitraan dan Kerja Sama Strategis\n     - Bimbingan Teknis (Bimtek) dan Pelatihan Profesional\n     - Layanan Kunjungan Agroedukasi\n     - Akses Perpustakaan dan Referensi Ilmiah\n     - Program Magang dan Implementasi Merdeka Belajar Kampus Merdeka (MBKM)\n     - Layanan Informasi, Publikasi, dan Dokumentasi\n\n**3. Layanan Pendukung Operasional**\nMenyediakan fasilitas pendukung untuk kegiatan pendidikan dan operasional yang terkait dengan modernisasi pertanian, meliputi:\n     - Fasilitasi Praktik Kerja Lapangan (PKL)\n     - Pemanfaatan Sarana dan Prasarana (Sarpras) Balai"
+            ]
+        },
+
+        {
+            "tag": "informasi-publik-brmp-penerapan",
+            "patterns": [
+                "Bagaimana cara meminta informasi publik di BRMP Penerapan?",
+                "Cara meminta informasi publik di BRMP Penerapan",
+                "Bagaimana prosedur meminta informasi publik di BRMP Penerapan?",
+                "Prosedur meminta informasi publik di BRMP Penerapan",
+                "Informasi publik BRMP Penerapan",
+                "Minta informasi publik",
+                "Saya ingin meminta informasi publik di BRMP Penerapan",
+                "Bagaimana saya bisa meminta informasi publik di BRMP Penerapan?"
+            ],
+            "responses": [
+                "Untuk permintaan informasi publik, Anda dapat mengajukan surat resmi yang ditujukan kepada Pejabat Pengelola Informasi dan Dokumentasi (PPID) BRMP Penerapan. Selain itu, permintaan juga dapat disampaikan melalui email atau website resmi PPID kami.",
+                "Semua permintaan informasi publik dikelola oleh Pejabat Pengelola Informasi dan Dokumentasi (PPID) BRMP Penerapan. Anda dapat menghubungi PPID dengan mengirimkan surat resmi, atau secara digital melalui email dan website PPID.",
+                "Ada beberapa cara untuk meminta informasi publik. Anda bisa mengirimkan surat resmi, atau menggunakan saluran digital kami (email/website PPID). Pastikan permintaan Anda ditujukan kepada PPID BRMP Penerapan.",
+                "Sesuai prosedur, permintaan informasi publik dapat dilakukan dengan dua cara: (1) Mengajukan surat resmi ke PPID BRMP Penerapan, atau (2) Mengisi formulir permintaan melalui email atau website resmi PPID.",
+                "Silakan ajukan permintaan informasi publik Anda kepada Pejabat Pengelola Informasi dan Dokumentasi (PPID) BRMP Penerapan. Pengajuan bisa melalui surat resmi, email resmi PPID, atau website PPID kami."
+            ]
+        },
+
+        {
+            "tag": "biaya-informasi-publik-brmp-penerapan",
+            "patterns": [
+                "Apakah ada biaya untuk mendapatkan informasi publik di BRMP Penerapan?",
+                "Biaya informasi publik di BRMP Penerapan",
+                "Apakah saya harus membayar untuk mendapatkan informasi publik di BRMP Penerapan?",
+                "Apakah ada tarif untuk mendapatkan informasi publik di BRMP Penerapan?",
+                "Berapa biaya untuk mendapatkan informasi publik di BRMP Penerapan?",
+                "Apakah ada biaya yang harus dibayar untuk mendapatkan informasi publik di BRMP Penerapan?",
+                "Biaya informasi publik",
+                "Harus bayar berapa untuk mendapatkan informasi publik di BRMP Penerapan?",
+                "bayar berapa untuk mendapatkan informasi publik di BRMP Penerapan?"
+            ],
+            "responses": [
+                "Pada prinsipnya, layanan informasi publik di PPID Balai Besar Pengembangan dan Penerapan Modernisasi Pertanian disediakan secara gratis. Pengecualian berlaku untuk informasi tertentu yang biayanya telah diatur sebagai Penerimaan Negara Bukan Pajak (PNBP).",
+                "Layanan informasi publik kami tidak dipungut biaya (gratis). Namun, jika informasi yang diminta termasuk dalam kategori yang dikenakan tarif resmi Penerimaan Negara Bukan Pajak (PNBP), maka akan ada biaya sesuai ketentuan tersebut.",
+                "Semua layanan informasi publik oleh PPID Balai Besar Pengembangan dan Penerapan Modernisasi Pertanian bersifat gratis, kecuali untuk informasi spesifik yang telah ditetapkan biayanya dalam skema Penerimaan Negara Bukan Pajak (PNBP).",
+                "Kami tidak memungut biaya untuk layanan informasi publik. Biaya hanya akan dikenakan apabila informasi yang Anda minta merupakan informasi yang, menurut peraturan, termasuk dalam Penerimaan Negara Bukan Pajak (PNBP).",
+                "Sesuai ketentuan, PPID Balai Besar Pengembangan dan Penerapan Modernisasi Pertanian menyediakan layanan informasi publik secara gratis. Biaya hanya berlaku untuk jenis informasi yang sudah ditetapkan sebagai bagian dari Penerimaan Negara Bukan Pajak (PNBP)."
+            ]
+        },
+
+        {
+            "tag": "lama-proses-informasi-publik-brmp-penerapan",
+            "patterns": [
+                "Berapa lama proses permohonan informasi publik diproses?",
+                "Lama proses permohonan informasi publik di BRMP Penerapan",
+                "Berapa lama waktu yang dibutuhkan untuk memproses permohonan informasi publik di BRMP Penerapan?",
+                "Waktu proses permohonan informasi publik di BRMP Penerapan",
+                "Berapa lama waktu proses permohonan informasi publik di BRMP Penerapan?"
+            ],
+            "responses": [
+                "Permintaan informasi publik Anda akan diproses oleh petugas kami dalam waktu maksimal 10 (sepuluh) hari kerja. Apabila diperlukan, waktu pemrosesan ini dapat diperpanjang hingga 7 (tujuh) hari kerja tambahan.",
+                "Sesuai standar operasional, petugas akan memproses layanan informasi publik paling lama 10 hari kerja. Dalam kondisi tertentu, perpanjangan waktu maksimal 7 hari kerja dapat diberlakukan.",
+                "Setelah permintaan diterima, petugas akan memprosesnya dalam 10 hari kerja. Jika diperlukan, kami dapat menambah waktu pemrosesan tersebut paling lama 7 hari kerja lagi.",
+                "Waktu pemrosesan untuk layanan informasi publik adalah 10 hari kerja. Petugas kami dapat memperpanjang durasi tersebut hingga 7 hari kerja tambahan jika memang diperlukan untuk pemenuhan informasi.",
+                "Jangka waktu pemrosesan dan penyampaian informasi publik oleh petugas adalah 10 hari kerja, dan dapat diperpanjang 7 hari kerja berikutnya apabila diperlukan."
+            ]
+        },
+
+        {
+            "tag": "mengajukan-keberatan-permintaan-informasi-ditolak",
+            "patterns": [
+                "Bagaimana cara mengajukan keberatan jika permintaan informasi ditolak?",
+                "Cara mengajukan keberatan jika permintaan informasi publik ditolak",
+                "Prosedur mengajukan keberatan jika permintaan informasi publik ditolak",
+                "Mengajukan keberatan jika permintaan informasi publik ditolak",
+                "Bagaimana prosedur mengajukan keberatan jika permintaan informasi publik ditolak?",
+                "Pengajuan informasi saya ditolak, bagaimana cara mengajukan keberatan?",
+                "Permintaan informasi saya ditolak, bagaimana cara mengajukan keberatan?",
+                "Saya ditolak permintaan informasinya, bagaimana cara mengajukan keberatan?",
+                "Bagaimana saya bisa mengajukan keberatan jika permintaan informasi publik saya ditolak?",
+                "Pengajuan informasi publik ditolak",
+                "Permintaan informasi publik ditolak"
+
+            ],
+            "responses": [
+                "Setiap pemohon informasi publik berhak mengajukan keberatan secara tertulis kepada atasan PPID. Alasan keberatan harus sesuai dengan **Pasal 35 UU No. 14 Tahun 2008**. Keberatan ini harus diajukan paling lambat **30 hari kerja** setelah alasan ditemukan, baik secara langsung (tatap muka) atau melalui email.",
+                "Pemohon informasi publik memiliki waktu paling lambat **30 hari kerja** (sejak ditemukannya alasan) untuk mengajukan keberatan. Keberatan diajukan secara tertulis kepada atasan PPID, dengan alasan yang mengacu pada **Pasal 35 UU No. 14 Tahun 2008**. Proses pengajuan dapat dilakukan dengan datang langsung atau mengirimkannya via email.",
+                "Proses pengajuan keberatan dapat dilakukan melalui dua cara, yaitu disampaikan secara langsung (tatap muka) atau dikirim melalui email. Keberatan harus dalam bentuk tertulis, ditujukan kepada atasan PPID, dan diajukan paling lambat **30 hari kerja** setelah alasan keberatan ditemukan (sesuai **Pasal 35 UU No. 14 Tahun 2008**).",
+                "Mengacu pada **Pasal 35 Undang-Undang Nomor 14 Tahun 2008**, pemohon informasi dapat mengajukan keberatan. Keberatan tersebut harus diajukan secara tertulis kepada atasan PPID, dalam jangka waktu maksimal **30 hari kerja** setelah alasan keberatan ditemukan. Pengajuan dapat dilakukan dengan penyampaian langsung atau via email.",
+                "Sesuai **Pasal 35 UU No. 14 Tahun 2008**, pemohon informasi dapat mengajukan keberatan tertulis kepada Atasan PPID. Batas waktu pengajuan keberatan adalah **30 hari kerja** sejak alasan ditemukan. Silakan sampaikan keberatan tersebut secara langsung (tatap muka) atau kirimkan melalui email."
+            ]
+        },
+
+        {
+            "tag": "kunjungan-studi-banding-brmp-penerapan",
+            "patterns": [
+                "Apakah BRMP Penerapan menerima kunjungan studi banding?",
+                "Apakah saya bisa melakukan kunjungan studi banding ke BRMP Penerapan?",
+                "Bagaimana cara mengajukan kunjungan studi banding ke BRMP Penerapan?",
+                "Kunjungan studi banding ke BRMP Penerapan",
+                "Studi banding ke BRMP Penerapan",
+                "Saya ingin studi banding ke BRMP Penerapan",
+                "Apakah BRMP Penerapan menerima studi banding?",
+                "Studi banding"
+
+            ],
+            "responses": [
+                "Pengajuan kunjungan ke BRMP Penerapan dapat dilakukan dengan mengirimkan surat resmi dari instansi atau lembaga terkait. Selain itu, kami juga menerima pengajuan melalui layanan informasi langsung, WhatsApp, dan email.",
+                "Ada beberapa metode untuk mengajukan kunjungan. Anda dapat mengirimkan surat resmi dari instansi/lembaga Anda, atau menghubungi kami secara langsung, baik melalui tatap muka di layanan informasi, WhatsApp, maupun email.",
+                "Kami menerima pengajuan kunjungan melalui surat resmi dari instansi/lembaga Anda. Untuk koordinasi awal atau pertanyaan, Anda juga dapat menghubungi layanan informasi langsung kami, atau melalui WhatsApp dan email.",
+                "Silakan sampaikan permohonan kunjungan Anda, baik melalui surat resmi instansi, layanan informasi langsung, WhatsApp, ataupun email resmi kami.",
+                "Untuk mengajukan kunjungan studi banding, Anda dapat mengirimkan surat resmi dari instansi/lembaga Anda. Selain itu, kami juga menerima pengajuan melalui layanan informasi langsung, WhatsApp, dan email."
+            ]
+        },
+
+        {
+            "tag": "media-sosial-brmp-penerapan",
+            "patterns": [
+                "media sosial",
+                "media sosial brmp penerapan",
+                "sosial media",
+                "sosial media brmp penerapan",
+                "akun media sosial brmp penerapan",
+                "akun sosial media brmp penerapan",
+                "sosmed",
+                "medsos",
+                "akun medsos brmp penerapan",
+                "akun sosmed brmp penerapan",
+                "akun media sosial resmi brmp penerapan",
+                "Apa saja media sosial resmi BRMP Penerapan?",
+                "Apa saja akun media sosial BRMP Penerapan?",
+                "Apa saja akun sosial media BRMP Penerapan?",
+                "Apa saja akun medsos BRMP Penerapan?",
+                "Apa saja akun sosmed BRMP Penerapan?",
+                "instagram",
+                "instagram BRMP Penerapan",
+                "facebook",
+                "facebook BRMP Penerapan",
+                "twitter",
+                "twitter BRMP Penerapan",
+                "X",
+                "X BRMP Penerapan",
+                "website",
+                "website BRMP Penerapan"
+                
+
+            ],
+            "responses": [
+                "Anda dapat mengikuti informasi terbaru dari BRMP Penerapan melalui website dan media sosial resmi kami: \n\n**- Website:** https://penerapan.brmp.pertanian.go.id/ \n**- Facebook:** BRMP Penerapan \n**- Instagram:** @brmp.penerapan \n**- Twitter/X:** @BRMPPenerapan",
+                "Untuk mendapatkan informasi terkini, kegiatan, dan layanan kami, silakan kunjungi saluran resmi BRMP Penerapan berikut: \n\n**- Website:** https://penerapan.brmp.pertanian.go.id/ \n**- Facebook:** BRMP Penerapan \n**- Instagram:** @brmp.penerapan \n**- X (Twitter):** @BRMPPenerapan",
+                "Berikut adalah tautan resmi media sosial dan website BRMP Penerapan: \n\n**- Website:** penerapan.brmp.pertanian.go.id \n**- Facebook:** facebook.com/brmppenerapan \n**- Instagram:** @brmp.penerapan \n**- X (Twitter):** @BRMPPenerapan"
+            ]
+        },
+
+        {
+            "tag": "informasi-kegiatan-brmp-penerapan",
+            "patterns": [
+                "Bagaimana cara tahu kegiatan terbaru BRMP Penerapan ?",
+                "Kegiatan terbaru BRMP Penerapan",
+                "Kegiatan BRMP Penerapan",
+                "Kegiatan apa saja yang dilakukan BRMP Penerapan?",
+                "Kegiatan BRMP Penerapan terbaru",
+                "Kegiatan BRMP Penerapan hari ini",
+                "Kegiatan BRMP Penerapan minggu ini",
+                "Kegiatan BRMP Penerapan bulan ini",
+                "Kegiatan BRMP Penerapan tahun ini",
+                "Apa saja kegiatan BRMP Penerapan?",
+                "Kegiatan BRMP Penerapan saat ini"
+            ],
+            "responses": [
+                "Informasi terbaru mengenai kegiatan di BRMP Penerapan dapat Anda temukan di media sosial resmi kami atau dengan mengunjungi website resmi kami.",
+                "Untuk mendapatkan update kegiatan terkini dari BRMP Penerapan, silakan ikuti media sosial resmi kami atau kunjungi website kami.",
+                "Update mengenai kegiatan terkini di BRMP Penerapan secara rutin kami publikasikan melalui saluran media sosial resmi dan website kami.",
+                "Publikasi informasi terkini terkait kegiatan BRMP Penerapan disampaikan melalui website resmi dan akun-akun media sosial resmi milik instansi.",
+                "Anda dapat melihat semua kegiatan terbaru BRMP Penerapan di website dan media sosial resmi kami."
+            ]
+        },
+
+        {
+            "tag": "hotline-brmp-penerapan",
+            "patterns": [
+                "Apakah BRMP punya hotline khusus?",
+                "Hotline BRMP Penerapan",
+                "Nomor hotline BRMP Penerapan",
+                "Apakah ada nomor hotline BRMP Penerapan?",
+                "Nomor telepon hotline BRMP Penerapan",
+                "Apakah BRMP Penerapan punya nomor hotline?",
+                "Nomor layanan hotline BRMP Penerapan",
+                "hotline"
+            ],
+            "responses": [
+                "Anda dapat menghubungi hotline BRMP Penerapan melalui:\n\n**- Telepon:** (0251) 200 0199\n**- WhatsApp:** 085183071943",
+                "Silakan hubungi hotline BRMP Penerapan di nomor telepon **(0251) 200 0199** atau melalui layanan WhatsApp di **085183071943.**",
+                "Untuk layanan hotline, kami tersedia di nomor **(0251) 200 0199** untuk panggilan telepon dan **085183071943** untuk pesan WhatsApp.",
+                "Hotline resmi BRMP Penerapan dapat dihubungi pada nomor telepon **(0251) 200 0199** serta nomor WhatsApp **085183071943.**",
+                "Untuk panggilan telepon, silakan hubungi hotline kami di **(0251) 200 0199**. Untuk pesan WhatsApp, silakan kirim ke **085183071943.**"
+            ]
+        },
+
+        {
+            "tag": "kepala-brmp-penerapan",
+            "patterns": [
+                "Siapa Kepala BRMP Penerapan saat ini?",
+                "Siapa yang menjabat sebagai Kepala BRMP Penerapan?",
+                "Siapa pejabat Kepala BRMP Penerapan sekarang?",
+                "Siapa nama Kepala BRMP Penerapan saat ini?",
+                "Siapa nama pejabat Kepala BRMP Penerapan sekarang?",
+                "Kepala BRMP Penerapan saat ini siapa?",
+                "Kepala BRMP Penerapan siapa?",
+                "Siapa yang memimpin BRMP Penerapan saat ini?",
+                "Kepala BRMP Penerapan"
+            ],
+            "responses": [
+                "Kepala BRMP Penerapan adalah pejabat eselon II yang ditunjuk langsung oleh Menteri Pertanian. Untuk mengetahui nama pejabat yang sedang menjabat, silakan merujuk pada website resmi atau profil instansi kami.",
+                "Jabatan Kepala BRMP Penerapan diisi oleh pejabat eselon II atas penunjukan langsung dari Menteri Pertanian. Nama pejabat yang memimpin saat ini dapat Anda lihat di website resmi atau profil instansi.",
+                "Untuk melihat nama Kepala BRMP Penerapan yang sedang menjabat, silakan cek website resmi atau profil instansi. Posisi ini dijabat oleh pejabat eselon II yang ditunjuk oleh Menteri Pertanian.",
+                "Kepala BRMP Penerapan merupakan pejabat eselon II. Pejabat ini ditunjuk langsung oleh Menteri Pertanian. Anda dapat menemukan informasi nama pejabat yang sedang menjabat saat ini di website resmi atau profil instansi BRMP Penerapan.",
+                "Posisi Kepala BRMP Penerapan dijabat oleh pejabat eselon II yang ditunjuk oleh Menteri Pertanian. Nama pejabat tersebut dapat dilihat di website atau profil resmi kami."
+            ]
+        },
+
+        {
+            "tag": "unit-kerja-brmp-penerapan",
+            "patterns": [
+                "BRMP Penerapan berada di bawah unit kerja siapa?",
+                "Unit kerja BRMP Penerapan",
+                "BRMP Penerapan bagian dari unit kerja apa?",
+                "BRMP Penerapan berada di bawah naungan unit kerja apa?",
+                "BRMP Penerapan berada di bawah naungan siapa?",
+                "Dibawah naungan unit kerja apa BRMP Penerapan?",
+                "Dibawah naungan siapa BRMP Penerapan?"
+            ],
+            "responses": [
+                "BRMP Penerapan berada di bawah naungan Badan Perakitan dan Modernisasi Pertanian (BRMP), yang merupakan bagian dari Kementerian Pertanian RI.",
+                "Induk unit kami adalah Badan Perakitan dan Modernisasi Pertanian (BRMP). BRMP Penerapan sendiri merupakan unit di bawah BRMP, Kementerian Pertanian RI.",
+                "BRMP Penerapan adalah unit kerja di lingkungan Kementerian Pertanian RI, dan secara struktural berada di bawah Badan Perakitan dan Modernisasi Pertanian (BRMP).",
+                "Secara kelembagaan, BRMP Penerapan bertanggung jawab kepada Badan Perakitan dan Modernisasi Pertanian (BRMP), Kementerian Pertanian RI.",
+                "Kami (BRMP Penerapan) merupakan unit pelaksana teknis di bawah Badan Perakitan dan Modernisasi Pertanian (BRMP), Kementerian Pertanian RI."
+            ]
+        },
+
+        {
+            "tag": "bantuan-langsung-brmp-penerapan",
+            "patterns": [
+                "Apakah BRMP memberikan bantuan langsung berupa bibit/alat kepada petani?",
+                "Apakah BRMP Penerapan memberikan bantuan langsung berupa bibit/alat kepada petani?",
+                "Apakah BRMP Penerapan menyediakan bantuan langsung berupa bibit/alat kepada petani?",
+                "Apakah BRMP Penerapan menyalurkan bantuan langsung berupa bibit/alat kepada petani?",
+                "Apakah BRMP Penerapan mendistribusikan bantuan langsung berupa bibit/alat kepada petani?",
+                "bantuan BRMP Penerapan",
+                "bantuan langsung BRMP Penerapan",
+                "bantuan bibit BRMP Penerapan",
+                "bantuan alat BRMP Penerapan"
+            ],
+            "responses": [
+                "BRMP Penerapan tidak menyalurkan bantuan secara langsung. Bantuan untuk masyarakat/petani biasanya dikoordinasikan melalui program-program Kementerian Pertanian atau lewat Dinas Pertanian di daerah.",
+                "Tidak. Kami tidak memberikan bantuan secara langsung. Penyaluran bantuan umumnya dilakukan melalui program Kementerian Pertanian atau Dinas Pertanian daerah setempat.",
+                "Sesuai mekanismenya, BRMP Penerapan tidak menangani penyaluran bantuan secara langsung. Bantuan tersebut disalurkan melalui program Kementerian Pertanian atau melalui Dinas Pertanian di masing-masing daerah.",
+                "Kami tidak memiliki wewenang untuk bantuan langsung. Program bantuan biasanya dikelola oleh Kementerian Pertanian secara terpusat atau oleh Dinas Pertanian daerah.",
+                "Tidak secara langsung. Untuk program bantuan, silakan berkoordinasi dengan Dinas Pertanian daerah Anda atau melalui program resmi Kementerian Pertanian."
+            ]
+        },
+
+        {
+            "tag": "pelaporan-petani-brmp-penerapan",
+            "patterns": [
+                "Apakah BRMP punya layanan pelaporan masalah pertanian dari petani?",
+                "Layanan pelaporan masalah pertanian dari petani di BRMP Penerapan",
+                "Apakah BRMP Penerapan menerima pelaporan masalah pertanian dari petani?",
+                "Pelaporan masalah pertanian dari petani di BRMP Penerapan",
+                "Apakah petani bisa melaporkan masalah pertanian ke BRMP Penerapan?",
+                "Pelaporan masalah pertanian dari petani",
+                "Layanan pelaporan masalah pertanian dari petani",
+                "Apakah ada layanan pelaporan masalah pertanian dari petani?",
+                "Bagaimana cara petani melaporkan masalah pertanian ke BRMP Penerapan?",
+                "Bagaimana petani bisa melaporkan masalah pertanian ke BRMP Penerapan?",
+                "Apakah petani dapat melaporkan masalah pertanian ke BRMP Penerapan?"
+            ],
+            "responses": [
+                "Ya, kami menerima pelaporan. Silakan sampaikan laporan Anda melalui media sosial resmi atau email kami, nanti akan kami teruskan ke bidang yang menanganinya.",
+                "Betul. Pelaporan dapat disampaikan melalui email atau media sosial BRMP Penerapan. Laporan yang masuk akan kami bantu arahkan ke bidang terkait untuk ditindaklanjuti.",
+                "Ya, pelaporan dapat dilakukan. Silakan kirimkan laporan Anda melalui saluran email atau media sosial kami. Petugas kami akan memvalidasi dan meneruskannya ke bidang teknis yang relevan.",
+                "Bisa. Anda dapat menggunakan media sosial atau email kami untuk melaporkan masalah tersebut. Laporan Anda akan kami sampaikan kepada bidang yang berwenang.",
+                "Ya, bisa. Silakan laporkan melalui media sosial atau email kami, dan laporan tersebut akan diarahkan ke bidang terkait."
+            ]
+        },
+
+        {
+            "tag": "penelitian-skripsi-brmp-penerapan",
+            "patterns": [
+                "Apakah mahasiswa S1 bisa penelitian skripsi di BRMP Penerapan?",
+                "Penelitian skripsi di BRMP Penerapan",
+                "Apakah saya bisa melakukan penelitian skripsi di BRMP Penerapan?",
+                "Bagaimana cara mengajukan penelitian skripsi di BRMP Penerapan?",
+                "Apakah BRMP Penerapan menerima mahasiswa S1 untuk penelitian skripsi?",
+                "Apakah mahasiswa S1 diperbolehkan melakukan penelitian skripsi di BRMP Penerapan?",
+                "Apakah mahasiswa S1 dapat melakukan penelitian skripsi di BRMP Penerapan?",
+                "Apakah mahasiswa S1 diizinkan melakukan penelitian skripsi di BRMP Penerapan?",
+                "Apakah mahasiswa S1 boleh melakukan penelitian skripsi di BRMP Penerapan?",
+                "Penelitian skripsi di BRMP Penerapan untuk mahasiswa S1"
+            ],
+            "responses": [
+                "Bisa. Syaratnya adalah Anda harus mendapatkan izin resmi (surat pengantar) dari kampus dan mengajukan tema penelitian Anda terlebih dahulu kepada kami untuk dinilai kesesuaiannya.",
+                "Ya, kami menerima mahasiswa magang/penelitian. Silakan ajukan surat izin resmi dari kampus Anda. Selain itu, tema penelitian yang diajukan harus sesuai dan mendapatkan persetujuan dari BRMP Penerapan sebelum dimulai.",
+                "Bisa. Pelaksanaan magang atau penelitian dapat dilakukan dengan melampirkan izin resmi dari kampus/universitas. Tema penelitian juga wajib diajukan terlebih dahulu kepada BRMP Penerapan untuk ditinjau kesesuaiannya.",
+                "Kami mempersilakan, asalkan ada izin resmi dari kampus. Penting juga untuk mengajukan tema penelitian Anda terlebih dahulu kepada kami untuk memastikan kesesuaian topik dengan bidang kami di BRMP Penerapan.",
+                "Ya, bisa. Wajib ada surat izin resmi dari kampus dan tema penelitian yang diajukan harus sesuai dengan kebutuhan di BRMP Penerapan dan telah disetujui sebelumnya."
+            ]
+        },
+
+        {
+            "tag": "data-sekunder-penelitian-mahasiswa",
+            "patterns": [
+                "Apakah BRMP menyediakan data sekunder untuk penelitian mahasiswa?",
+                "Data sekunder untuk penelitian mahasiswa di BRMP Penerapan",
+                "Apakah saya bisa mendapatkan data sekunder untuk penelitian mahasiswa di BRMP Penerapan?",
+                "Bagaimana cara mendapatkan data sekunder untuk penelitian mahasiswa di BRMP Penerapan?",
+                "Apakah BRMP Penerapan menyediakan data sekunder untuk penelitian mahasiswa?",
+                "Data sekunder untuk penelitian mahasiswa",
+                "Apakah ada data sekunder untuk penelitian mahasiswa?",
+                "Bagaimana cara mahasiswa mendapatkan data sekunder untuk penelitian di BRMP Penerapan?",
+                "data untuk penelitian mahasiswa",
+                "Apakah mahasiswa bisa mendapatkan data sekunder untuk penelitian di BRMP Penerapan?",
+                "data untuk penelitian mahasiswa di BRMP Penerapan",
+                "data untuk penelitian mahasiswa"
+            ],
+            "responses": [
+                "Ya, tentu. Data tersebut bisa kami berikan selama termasuk dalam kategori informasi publik.",
+                "Betul. Data tersebut tersedia untuk diakses, asalkan data yang Anda minta tersebut dikategorikan sebagai informasi publik.",
+                "Ya, bisa. Pemberian data tersebut dimungkinkan selama data yang diminta termasuk dalam klasifikasi informasi publik yang dapat diakses.",
+                "Selama data yang Anda maksud termasuk dalam kategori informasi publik, maka data tersebut dapat kami berikan.",
+                "Ya, bisa, asalkan data tersebut berstatus sebagai informasi publik."
+            ]
+        },
+
+        {
+            "tag": "durasi-izin-penelitian-diproses",
+            "patterns": [
+                "Berapa lama biasanya izin penelitian diproses?",
+                "Durasi proses izin penelitian di BRMP Penerapan",
+                "Berapa lama waktu yang dibutuhkan untuk memproses izin penelitian di BRMP Penerapan?",
+                "Waktu proses izin penelitian di BRMP Penerapan",
+                "Berapa lama waktu proses izin penelitian di BRMP Penerapan?",
+                "Berapa lama waktu yang dibutuhkan untuk mendapatkan izin penelitian di BRMP Penerapan?",
+                "Durasi proses izin penelitian",
+                "Waktu proses izin penelitian"
+            ],
+            "responses": [
+                "Estimasi waktu pemrosesan permohonan adalah sekitar 1 hingga 2 minggu. Durasi ini dihitung sejak surat permohonan dan kelengkapannya kami terima.",
+                "Permohonan Anda akan diproses rata-rata dalam 1–2 minggu. Mohon dipastikan surat permohonan telah diterima secara lengkap agar kami dapat segera memprosesnya.",
+                "Jangka waktu pemrosesan permohonan adalah 1 (satu) sampai 2 (dua) minggu, terhitung sejak surat permohonan diterima secara lengkap oleh administrasi.",
+                "Setelah surat permohonan Anda kami terima secara lengkap, kami memerlukan waktu pemrosesan rata-rata sekitar 1–2 minggu.",
+                "Rata-rata 1–2 minggu setelah surat permohonan lengkap kami terima."
+            ]
+        },
+
+        {
+            "tag": "kuota-mahasiswa-magang",
+            "patterns": [
+                "Apakah ada kuota untuk mahasiswa magang/PKL?",
+                "Kuota mahasiswa magang/PKL di BRMP Penerapan",
+                "Apakah BRMP Penerapan memiliki kuota untuk mahasiswa magang/PKL?",
+                "Kuota untuk mahasiswa magang/PKL di BRMP Penerapan",
+                "Apakah ada batasan kuota untuk mahasiswa magang/PKL di BRMP Penerapan?",
+                "Kuota mahasiswa magang/PKL",
+                "Apakah ada batasan kuota untuk mahasiswa magang/PKL?",
+                "batasan jumlah mahasiswa magang/PKL",
+                "Apakah ada batasan jumlah mahasiswa magang/PKL?",
+                "batasan kuota mahasiswa magang/PKL",
+                "jumlah maksimal mahasiswa magang/PKL",
+                "Apakah ada jumlah maksimal mahasiswa magang/PKL?",
+                "kuota maksimal mahasiswa magang/PKL",
+                "Apakah ada kuota maksimal mahasiswa magang/PKL?"
+
+            ],
+            "responses": [
+                "Ya, kami membatasi jumlah peserta magang agar proses bimbingan berjalan efektif. Kuota kami biasanya sekitar 10 hingga 20 orang per periode.",
+                "Betul, ada batasan jumlah. Kami biasanya menerima 10–20 orang peserta magang dalam satu periode untuk menjaga efektivitas program.",
+                "Benar. Demi efektivitas pelaksanaan magang, jumlah peserta dibatasi, yakni rata-rata 10 sampai 20 orang untuk setiap periode penerimaan.",
+                "Ya, agar berjalan efektif, jumlah peserta kami batasi. Kuotanya berkisar antara 10–20 orang per periode, tergantung bidang yang tersedia.",
+                "Ya, jumlahnya dibatasi agar efektif, yaitu sekitar 10–20 orang per periode."
+            ]
+        },
+
+        {
+            "tag": "kunjungan-edukasi-sekolah",
+            "patterns": [
+                "Apakah sekolah bisa melakukan kunjungan edukasi ke BRMP?",
+                "Kunjungan edukasi sekolah ke BRMP Penerapan",
+                "Apakah saya bisa mengajukan kunjungan edukasi sekolah ke BRMP Penerapan?",
+                "Bagaimana cara mengajukan kunjungan edukasi sekolah ke BRMP Penerapan?",
+                "Apakah BRMP Penerapan menerima kunjungan edukasi dari sekolah?",
+                "Kunjungan edukasi sekolah",
+                "Apakah sekolah dapat melakukan kunjungan edukasi ke BRMP Penerapan?",
+                "Apakah sekolah boleh melakukan kunjungan edukasi ke BRMP Penerapan?",
+                "Apakah sekolah diizinkan melakukan kunjungan edukasi ke BRMP Penerapan?",
+                "Apakah sekolah diperbolehkan melakukan kunjungan edukasi ke BRMP Penerapan?",
+                "kunjungan edukasi ke BRMP Penerapan untuk sekolah",
+                "kunjungan edukasi",
+                "kunjungan sekolah untuk edukasi"
+            ],
+            "responses": [
+                "Bisa, syaratnya adalah dengan mengajukan surat resmi dari pihak sekolah yang ditujukan kepada BRMP Penerapan.",
+                "Ya, bisa. Kami memerlukan surat pengajuan resmi dari sekolah Anda yang ditujukan kepada BRMP Penerapan.",
+                "Benar, dapat dilaksanakan. Pihak sekolah dapat mengajukan permohonan melalui surat resmi kepada BRMP Penerapan.",
+                "Tentu saja bisa. Silakan pihak sekolah membuat surat pengajuan resmi terlebih dahulu dan mengirimkannya kepada BRMP Penerapan.",
+                "Bisa, asalkan ada pengajuan surat resmi dari sekolah ke BRMP Penerapan."
+            ]
+        },
+
+        {
+            "tag": "proposal-penelitian-kolaboratif-kampus",
+            "patterns": [
+                "Apakah BRMP menerima proposal penelitian kolaboratif dari kampus?",
+                "Proposal penelitian kolaboratif dari kampus di BRMP Penerapan",
+                "Apakah saya bisa mengajukan proposal penelitian kolaboratif dari kampus ke BRMP Penerapan?",
+                "Bagaimana cara mengajukan proposal penelitian kolaboratif dari kampus ke BRMP Penerapan?",
+                "Apakah BRMP Penerapan menerima proposal penelitian kolaboratif dari kampus?",
+                "Proposal penelitian kolaboratif dari kampus",
+                "Apakah kampus bisa mengajukan proposal penelitian kolaboratif ke BRMP Penerapan?",
+                "Apakah kampus diperbolehkan mengajukan proposal penelitian kolaboratif ke BRMP Penerapan?",
+                "Apakah kampus diizinkan mengajukan proposal penelitian kolaboratif ke BRMP Penerapan?",
+                "Apakah kampus boleh mengajukan proposal penelitian kolaboratif ke BRMP Penerapan?",
+                "proposal penelitian kolaboratif ke BRMP Penerapan dari kampus",
+                "proposal penelitian kolaboratif dari kampus"
+            ],
+            "responses": [
+                "Bisa, asalkan penggunaannya hanya untuk kepentingan edukasi atau non-komersial.",
+                "Ya, kami mengizinkan, selama tujuannya adalah untuk edukasi dan bukan untuk kepentingan komersial.",
+                "Benar, hal tersebut diperkenankan, dengan catatan pemanfaatannya bersifat edukatif dan/atau non-komersial.",
+                "Kami dapat menyetujuinya, selama itu digunakan untuk tujuan edukasi atau non-komersial",
+                "Bisa. Yang penting tidak digunakan untuk tujuan komersial, melainkan hanya untuk edukasi."
+            ]
+        },
+
+        {
+            "tag": "unduh-foto-kegiatan-di-medsos-brmp",
+            "patterns": [
+                "Apakah masyarakat bisa mengunduh foto kegiatan BRMP dari media sosial?",
+                "Unduh foto kegiatan di media sosial BRMP Penerapan",
+                "Apakah saya bisa mengunduh foto kegiatan BRMP dari media sosial?",
+                "Apakah BRMP Penerapan mengizinkan masyarakat mengunduh foto kegiatan dari media sosial?",
+                "Unduh foto kegiatan di media sosial BRMP",
+                "Apakah masyarakat diperbolehkan mengunduh foto kegiatan BRMP dari media sosial?",
+                "Apakah masyarakat diizinkan mengunduh foto kegiatan BRMP dari media sosial?",
+                "Apakah masyarakat boleh mengunduh foto kegiatan BRMP dari media sosial?",
+                "Apakah masyarakat dapat mengunduh foto kegiatan BRMP dari media sosial?",
+                "unduh foto kegiatan BRMP dari media sosial"
+            ],
+            "responses": [
+                "Bisa, asalkan penggunaannya hanya untuk kepentingan edukasi atau non-komersial.",
+                "Ya, kami mengizinkan, selama tujuannya adalah untuk edukasi dan bukan untuk kepentingan komersial.",
+                "Benar, hal tersebut diperkenankan, dengan catatan pemanfaatannya bersifat edukatif dan/atau non-komersial.",
+                "Kami dapat menyetujuinya, selama itu digunakan untuk tujuan edukasi atau non-komersial",
+                "Bisa. Yang penting tidak digunakan untuk tujuan komersial, melainkan hanya untuk edukasi."
+            ]
+        },
+
+        {
+            "tag": "menerima-masukan-masyarakat",
+            "patterns": [
+                "Apakah BRMP menerima masukan dari masyarakat lewat media sosial?",
+                "Menerima masukan dari masyarakat di BRMP Penerapan",
+                "Apakah saya bisa memberikan masukan ke BRMP Penerapan lewat media sosial?",
+                "Apakah BRMP Penerapan menerima masukan dari masyarakat lewat media sosial?",
+                "Masukan dari masyarakat lewat media sosial",
+                "Apakah masyarakat bisa memberikan masukan ke BRMP Penerapan lewat media sosial?",
+                "Apakah masyarakat diperbolehkan memberikan masukan ke BRMP Penerapan lewat media sosial?",
+                "Apakah masyarakat diizinkan memberikan masukan ke BRMP Penerapan lewat media sosial?",
+                "Apakah masyarakat boleh memberikan masukan ke BRMP Penerapan lewat media sosial?",
+                "memberikan masukan ke BRMP Penerapan lewat media sosial"
+            ],
+            "responses": [
+                "Tentu saja. Admin kami secara aktif memantau dan merespons masukan yang diterima dari publik.",
+                "Ya, benar. Admin kami selalu berusaha responsif terhadap setiap masukan yang disampaikan oleh publik.",
+                "Tentu. Masukan dari publik selalu menjadi perhatian kami, dan admin kami aktif untuk menanggapinya.",
+                "Ya. Kami memastikan admin kami selalu aktif dalam memberikan tanggapan atas masukan yang disampaikan oleh publik.",
+                "Ya. Admin kami secara aktif menanggapi masukan-masukan yang masuk dari publik."
+            ]
+        },
+
+        {
+            "tag": "brmp-aktif-di-tiktok",
+            "patterns": [
+                "Apakah BRMP aktif di TikTok juga?",
+                "BRMP Penerapan di TikTok",
+                "Apakah BRMP Penerapan memiliki akun TikTok?",
+                "TikTok BRMP Penerapan",
+                "Apakah BRMP Penerapan ada di TikTok?",
+                "Apakah BRMP Penerapan punya akun TikTok?",
+                "Apakah BRMP Penerapan menggunakan TikTok sebagai media sosial?",
+                "Apakah BRMP Penerapan menggunakan TikTok?"
+            ],
+            "responses": [
+                "Ya, BRMP Penerapan memiliki akun TikTok resmi di @brmppenerapan. Akun ini kami gunakan untuk memberikan edukasi publik dengan cara yang ringan dan mudah dipahami.",
+                "Betul. Untuk edukasi publik dengan format yang ringan dan mudah dimengerti, kami juga hadir di TikTok. Silakan kunjungi akun kami di @brmppenerapan.",
+                "Tentu saja. Jangan lupa ikuti akun TikTok kami di @brmppenerapan untuk mendapatkan konten edukasi publik yang kami sajikan secara ringan dan mudah dipahami.",
+                "Benar. BRMP Penerapan memanfaatkan platform TikTok untuk edukasi publik. Kontennya disajikan secara ringan agar mudah dipahami. Akun kami dapat diakses di @brmppenerapan.",
+                "Ya, kami ada di TikTok. Akun kami @brmppenerapan. Kami menggunakannya untuk edukasi publik yang ringan dan informatif."
+            ]
+        },
+        
+        {
+            "tag": "menyampaikan-kritik-untuk-brmp-penerapan",
+            "patterns": [
+                "Bagaimana cara masyarakat menyampaikan kritik/saran untuk BRMP?",
+                "Menyampaikan kritik/saran untuk BRMP Penerapan",
+                "Apakah saya bisa menyampaikan kritik/saran untuk BRMP Penerapan?",
+                "Apakah BRMP Penerapan menerima kritik/saran dari masyarakat?",
+                "Menyampaikan kritik/saran untuk BRMP",
+                "Apakah masyarakat bisa menyampaikan kritik/saran untuk BRMP Penerapan?",
+                "Apakah masyarakat diperbolehkan menyampaikan kritik/saran untuk BRMP Penerapan?",
+                "Apakah masyarakat diizinkan menyampaikan kritik/saran untuk BRMP Penerapan?",
+                "Apakah masyarakat boleh menyampaikan kritik/saran untuk BRMP Penerapan?",
+                "menyampaikan kritik/saran untuk BRMP Penerapan"
+            ],
+            "responses": [
+                "Penyampaian kritik maupun saran dapat dilakukan melalui kotak saran yang tersedia di kantor BRMP Penerapan. Selain itu, Anda juga bisa menyampaikannya melalui email resmi, atau melalui kanal pengaduan publik yang ada di website.",
+                "Kami menerima kritik dan saran melalui beberapa cara. Anda bisa menyampaikannya secara luring (offline) melalui kotak saran di kantor, atau secara daring (online) melalui email resmi dan kanal pengaduan publik di website kami.",
+                "Silakan sampaikan kritik atau saran Anda. Anda dapat memilih untuk memasukkannya ke kotak saran di kantor, mengirimkannya via email resmi, atau menggunakan kanal pengaduan publik di website."
+            ]
+        },
+
+        {
+            "tag": "perpustakaan-brmp-penerapan",
+            "patterns": [
+                "Apakah BRMP Penerapan memiliki perpustakaan?",
+                "Perpustakaan BRMP Penerapan",
+                "Apakah BRMP Penerapan menyediakan perpustakaan?",
+                "Apakah ada perpustakaan di BRMP Penerapan?",
+                "Apakah BRMP Penerapan punya perpustakaan?",
+                "Apakah BRMP Penerapan memiliki fasilitas perpustakaan?",
+                "Apakah BRMP Penerapan menyediakan fasilitas perpustakaan?"
+            ],
+            "responses": [
+                "Ya, benar. BRMP Penerapan memiliki perpustakaan. Koleksi kami meliputi buku, laporan riset, jurnal, dan berbagai publikasi hasil penelitian yang berfokus pada pertanian dan modernisasi pertanian.",
+                "Betul. Perpustakaan BRMP Penerapan menyimpan beragam koleksi pustaka, seperti buku, laporan riset, dan jurnal. Seluruh koleksi ini terkait dengan hasil penelitian di bidang pertanian dan modernisasi pertanian.",
+                "Ya, kami memiliki perpustakaan yang koleksinya berfokus pada tema pertanian dan modernisasi pertanian. Di dalamnya tersimpan buku, laporan riset, jurnal, serta publikasi hasil penelitian terkait.",
+                "Benar. BRMP Penerapan menyediakan fasilitas perpustakaan yang mengelola koleksi buku, laporan riset, jurnal, dan publikasi hasil penelitian. Seluruh koleksi tersebut relevan dengan bidang pertanian dan modernisasi pertanian.",
+                "Ya, kami memiliki perpustakaan. Isinya adalah koleksi buku, laporan riset, jurnal, dan publikasi lainnya yang berkaitan dengan pertanian dan modernisasi pertanian."
+            ]
+        },
+
+        {
+            "tag": "akses-perpustakaan-brmp-penerapan",
+            "patterns": [
+                "Siapa saja yang bisa menggunakan perpustakaan BRMP Penerapan?",
+                "Akses perpustakaan BRMP Penerapan",
+                "Apakah perpustakaan BRMP Penerapan terbuka untuk umum?",
+                "Apakah siapa saja bisa menggunakan perpustakaan BRMP Penerapan?",
+                "Apakah perpustakaan BRMP Penerapan bisa diakses oleh umum?",
+                "Apakah perpustakaan BRMP Penerapan tersedia untuk umum?",
+                "Apakah perpustakaan BRMP Penerapan dapat diakses oleh umum?",
+                "Apakah perpustakaan BRMP Penerapan boleh diakses oleh umum?",
+                "Apakah perpustakaan BRMP Penerapan diperbolehkan diakses oleh umum?"
+            ],
+            "responses": [
+                "Perpustakaan kami terbuka untuk pegawai BRMP, mahasiswa, peneliti, petani, dan juga masyarakat umum, selama mereka membutuhkan informasi terkait pertanian.",
+                "Ya, perpustakaan kami melayani berbagai kalangan, mulai dari internal (pegawai BRMP) hingga eksternal (mahasiswa, peneliti, petani, dan masyarakat umum) yang mencari informasi di bidang pertanian.",
+                "Betul. Perpustakaan kami terbuka untuk siapa saja yang membutuhkan informasi pertanian, termasuk pegawai BRMP, kalangan akademisi (mahasiswa/peneliti), praktisi (petani), dan masyarakat umum.",
+                "Perpustakaan BRMP Penerapan dapat diakses oleh pegawai BRMP serta masyarakat umum. Ini mencakup mahasiswa, peneliti, dan petani yang memiliki kebutuhan informasi terkait pertanian dan modernisasinya.",
+                "Tentu. Pegawai BRMP, mahasiswa, peneliti, petani, maupun masyarakat umum dipersilakan mengunjungi perpustakaan kami, khususnya jika membutuhkan informasi atau referensi seputar pertanian."
+            ]
+        },
+
+        {
+            "tag": "jam-layanan-perpustakaan-brmp-penerapan",
+            "patterns": [
+                "Jam layanan perpustakaan BRMP Penerapan kapan?",
+                "Jam operasional perpustakaan BRMP Penerapan",
+                "Kapan perpustakaan BRMP Penerapan buka?",
+                "Jam buka perpustakaan BRMP Penerapan",
+                "Jam tutup perpustakaan BRMP Penerapan",
+                "Jam layanan perpustakaan BRMP Penerapan",
+                "kapan perpustakaan buka",
+                "Kapan perpustakaan BRMP Penerapan tutup?",
+                "kapan perpustakaan tutup",
+                "perpustakaan buka jam berapa",
+                "kapan perpus buka",
+                "kapan perpus tutup",
+                "jam berapa perpus buka",
+                "jam berapa perpus tutup"
+            ],
+            "responses": [
+                "Layanan perpustakaan kami buka pada: \n\n **1. Senin – Kamis:** Pukul 07.00 – 16.00 WIB\n **2. Jumat:** Pukul 07.00 – 16.30 WIB\n\n(Jam buka ini mengikuti jam operasional instansi).",
+                "Perpustakaan kami melayani pada hari kerja (Senin-Jumat). Untuk hari Senin sampai Kamis, layanan dibuka pukul 07.00–16.00 WIB. Untuk hari Jumat, layanan dibuka pukul 07.00–16.30 WIB.",
+                "am operasional perpustakaan mengikuti jam operasional instansi. Layanan kami buka pada hari kerja: Senin–Kamis (07.00–16.00 WIB) dan Jumat (07.00–16.30 WIB).",
+                "Layanan perpustakaan kami tersedia pada hari kerja. Jam bukanya adalah Senin sampai Kamis pukul 07.00 hingga 16.00 WIB, dan khusus hari Jumat pukul 07.00 hingga 16.30 WIB, sesuai jam operasional kantor.",
+                "Jam layanan perpustakaan adalah:\n\n **1. Senin s/d Kamis:** 07.00 - 16.00 WIB. \n **Jumat:** 07.00 - 16.30 WIB.\n\nKami buka mengikuti jam kerja instansi."
+            ]
+        },
+
+        {
+            "tag": "akses-koleksi-perpustakaan-brmp-penerapan",
+            "patterns": [
+                "Bagaimana cara mengakses koleksi perpustakaan?",
+                "Akses koleksi perpustakaan BRMP Penerapan",
+                "Bagaimana cara saya mengakses koleksi perpustakaan BRMP Penerapan?",
+                "Bagaimana cara mengakses koleksi perpustakaan BRMP Penerapan?",
+                "Akses koleksi perpustakaan",
+                "Bagaimana cara cari buku di perpustakaan BRMP Penerapan?",
+                "Bagaimana cara menemukan koleksi di perpustakaan BRMP Penerapan?"
+            ],
+            "responses": [
+                "Berikut prosedur kunjungan ke perpustakaan:\n\n1. Pengunjung silakan datang langsung ke lokasi perpustakaan.\n2. Mendaftar atau mengisi buku tamu yang tersedia.\n3. Mencari koleksi yang dibutuhkan, petugas kami akan siap membantu Anda.",
+                "Pengunjung dipersilakan untuk datang langsung ke perpustakaan kami. Setibanya di lokasi, Anda akan diminta mendaftar di buku tamu, setelah itu petugas kami akan membantu Anda mencari koleksi yang dibutuhkan.",
+                "Silakan datang langsung ke perpustakaan. Setelah Anda mendaftar di buku tamu, petugas kami akan mendampingi dan membantu Anda dalam mencari koleksi yang diperlukan.",
+                "Bagi pengunjung yang ingin mengakses perpustakaan, Anda dapat datang langsung dan melakukan pendaftaran pada buku tamu. Proses pencarian koleksi selanjutnya dapat dibantu oleh petugas perpustakaan.",
+                "Anda bisa langsung datang ke perpustakaan. Cukup mendaftar di buku tamu, lalu petugas akan membantu Anda menemukan koleksi yang Anda cari."
+            ]
+        },
+
+        {
+            "tag": "biaya-masuk-perpustakaan-brmp-penerapan",
+            "patterns": [
+                "Apakah ada biaya untuk menggunakan perpustakaan BRMP Penerapan?",
+                "Biaya masuk perpustakaan BRMP Penerapan",
+                "Apakah saya harus membayar untuk menggunakan perpustakaan BRMP Penerapan?",
+                "Apakah ada tarif untuk menggunakan perpustakaan BRMP Penerapan?",
+                "Biaya masuk perpustakaan",
+                "Apakah ada tarif untuk menggunakan perpustakaan BRMP Penerapan?",
+                "harga masuk perpustakaan",
+                "Apakah ada harga masuk perpustakaan?",
+                "masuk perpustakaan bayar berapa",
+                "masuk perpustakaan bayar ga",
+                "masuk perpus bayar berapa",
+                "masuk perpus bayar ga"
+            ],
+            "responses": [
+                "Tidak ada biaya. Semua layanan perpustakaan kami gratis untuk masyarakat umum.",
+                "Seluruh layanan perpustakaan kami tidak dipungut biaya (gratis) dan terbuka untuk umum.",
+                "Tidak ada. Layanan perpustakaan BRMP Penerapan disediakan secara gratis bagi seluruh pengunjung umum.",
+                "Tidak ada biaya sama sekali. Siapapun dari masyarakat umum dapat mengakses layanan perpustakaan kami secara gratis.",
+                "Tidak ada. Layanan perpustakaan kami gratis untuk umum."
+            ]
+        },
+
+        {
+            "tag": "cara-mahasiswa-memanfaatkan-perpustakaan-untuk-skripsi",
+            "patterns": [
+                "Bagaimana cara mahasiswa bisa memanfaatkan perpustakaan BRMP  Penerepan untuk skripsi/tesis?",
+                "Memanfaatkan perpustakaan BRMP Penerapan untuk skripsi/tesis",
+                "Bagaimana cara saya sebagai mahasiswa memanfaatkan perpustakaan BRMP Penerapan untuk skripsi/tesis?",
+                "Bagaimana cara mahasiswa memanfaatkan perpustakaan BRMP Penerapan untuk skripsi/tesis?",
+                "Memanfaatkan perpustakaan untuk skripsi/tesis",
+                "saya ingin ke perpustakaan brmp penerapan untuk membantu skripsi/tesis saya",
+                "bagaimana cara memanfaatkan perpustakaan brmp penerapan untuk membantu skripsi/tesis saya"
+            ],
+            "responses": [
+                "Bagi mahasiswa, Anda cukup membawa surat pengantar resmi dari kampus. Setelah itu, silakan mendaftar sebagai pengunjung perpustakaan agar Anda bisa mendapatkan akses yang lebih luas ke koleksi kami.",
+                "Untuk mendapatkan akses koleksi perpustakaan secara lebih luas, mahasiswa diwajibkan mendaftar sebagai pengunjung. Syarat pendaftarannya adalah cukup dengan membawa surat pengantar dari kampus.",
+                "Mahasiswa yang ingin berkunjung disyaratkan membawa surat pengantar dari kampus. Setibanya di sini, Anda dapat mendaftar sebagai pengunjung perpustakaan, yang akan memberi Anda akses lebih penuh ke koleksi kami.",
+                "Mahasiswa yang berkepentingan di perpustakaan harap melengkapi diri dengan surat pengantar dari institusi (kampus). Selanjutnya, lakukan pendaftaran sebagai pengunjung agar dapat mengakses koleksi kami secara lebih ekstensif.",
+                "Cukup bawa surat pengantar dari kampus. Setelah itu, Anda mendaftar sebagai pengunjung perpustakaan, dan Anda akan bisa mengakses koleksi kami dengan lebih leluasa."
+            ]
+        },
+
+        {
+            "tag": "brmp-penerapan-menerima-mahasiswa-pkl",
+            "patterns": [
+                "Apakah BRMP Penerapan menerima mahasiswa untuk magang",
+                "BRMP Penerapan menerima mahasiswa untuk PKL/magang/MBKM",
+                "Apakah saya bisa mengajukan magang di BRMP Penerapan?",
+                "Bagaimana cara mengajukan magang di BRMP Penerapan?",
+                "saya ingin mengajukan magang di BRMP Penerapan",
+                "magang di BRMP Penerapan",
+                "cara magang di BRMP Penerapan",
+                "bagaimana cara magang di BRMP Penerapan"
+            ],
+            "responses": [
+                "Ya, BRMP Penerapan menerima mahasiswa untuk kegiatan PKL, magang, maupun program MBKM. Pendaftaran wajib dilakukan secara resmi dengan mengirimkan surat pengantar dari perguruan tinggi yang ditujukan kepada Kepala BRMP Penerapan. Setelah itu, mahasiswa akan menerima konfirmasi mengenai jadwal, bidang penempatan, dan pembimbing yang sesuai.",
+                "Betul. Mahasiswa yang berminat untuk PKL, magang, atau MBKM harus mengajukan surat pengantar resmi dari perguruan tinggi terlebih dahulu, ditujukan kepada Kepala BRMP Penerapan. Berdasarkan surat tersebut, kami akan memproses dan memberikan konfirmasi terkait jadwal, penempatan bidang, serta pembimbing yang relevan dengan kompetensi.",
+                "Benar. Kami menerima pelaksanaan PKL, magang, dan program MBKM. Adapun prosedurnya, perguruan tinggi wajib mengirimkan surat pengantar resmi kepada Kepala BRMP Penerapan. Mahasiswa yang bersangkutan selanjutnya akan mendapatkan konfirmasi terkait jadwal, bidang penempatan, dan penunjukan pembimbing.",
+                "Tentu. Kami menerima mahasiswa PKL, magang, dan MBKM. Silakan ajukan surat resmi dari kampus ke Kepala BRMP Penerapan. Jika disetujui, kami akan konfirmasi jadwal, bidang penempatan, dan pembimbing Anda."
+            ]
+        },
+
+        {
+            "tag": "bidang-magang-brmp-penerapan",
+            "patterns": [
+                "Bidang apa saja yang bisa jadi tempat magang di BRMP Penerapan ?",
+                "Bidang magang di BRMP Penerapan",
+                "Apa saja bidang yang tersedia untuk magang di BRMP Penerapan ?",
+                "Bidang apa saja yang ada untuk magang di BRMP Penerapan ?",
+                "bidang magang di BRMP Penerapan",
+                "bidang apa saja yang tersedia untuk magang di BRMP Penerapan ?",
+                "bidang apa saja yang ada untuk magang di BRMP Penerapan ?",
+                "ada bidang apa saja untuk magang di BRMP Penerapan ?"
+            ],
+            "responses": [
+                "Penempatan mahasiswa magang/PKL/MBKM di BRMP Penerapan akan disesuaikan dengan jurusan dan kebutuhan program. Namun, penempatan final juga akan mempertimbangkan ketersediaan bidang serta pembimbing di kami. Hal ini untuk memastikan kegiatan magang berjalan efektif dan relevan dengan kompetensi mahasiswa.",
+                "Mahasiswa magang/PKL/MBKM dapat ditempatkan di berbagai bidang. Penempatan ini didasarkan pada ketersediaan bidang dan pembimbing di BRMP Penerapan, serta disesuaikan dengan jurusan dan kebutuhan program agar magang berjalan efektif dan relevan.",
+                "Agar kegiatan magang dapat berjalan efektif dan relevan dengan kompetensi mahasiswa, penempatan akan kami sesuaikan. Kami akan mencocokkan jurusan dan kebutuhan program magang dengan ketersediaan bidang dan pembimbing yang ada di BRMP Penerapan.",
+                "Penempatan mahasiswa magang (PKL/MBKM) didasarkan pada dua faktor: (1) Jurusan dan kebutuhan program mahasiswa, dan (2) Ketersediaan bidang serta pembimbing di BRMP Penerapan. Penyesuaian ini bertujuan agar pelaksanaan magang efektif dan sesuai dengan kompetensi.",
+                "Tentu, mahasiswa bisa ditempatkan di berbagai bidang sesuai jurusannya. Nanti, kami akan menyesuaikan penempatan tersebut dengan bidang dan pembimbing yang tersedia, sehingga program magang Anda bisa berjalan efektif dan benar-benar relevan dengan kompetensi yang Anda miliki."
+            ]
+        },
+
+        {
+            "tag": "siapa-saja-yang-boleh-daftar-magang",
+            "patterns": [
+                "Siapa saja yang boleh mendaftar magang?",
+                "Siapa yang boleh daftar magang di BRMP Penerapan?",
+                "Siapa saja yang bisa daftar magang di BRMP Penerapan?",
+                "Siapa saja yang diperbolehkan daftar magang di BRMP Penerapan?",
+                "Siapa saja yang diizinkan daftar magang di BRMP Penerapan?",
+                "Siapa saja yang boleh magang di BRMP Penerapan?",
+                "Siapa yang boleh magang di BRMP Penerapan?",
+                "Siapa saja yang bisa magang di BRMP Penerapan?",
+                "Siapa saja yang diperbolehkan magang di BRMP Penerapan?"
+            ],
+            "responses": [
+                "Program magang, PKL, atau MBKM di BRMP Penerapan terbuka untuk mahasiswa dari berbagai perguruan tinggi (negeri maupun swasta), terutama yang program studinya relevan dengan bidang kerja kami. Kami juga menerima siswa SMK untuk kegiatan PKL, asalkan sesuai dengan kebutuhan dan jurusan mereka. Pendaftaran dilakukan secara resmi melalui surat pengajuan dari perguruan tinggi atau sekolah, yang ditujukan kepada Kepala BRMP Penerapan.",
+                "Kami menerima pendaftar dari dua jenjang:\n\n**1. Mahasiswa (Perguruan Tinggi):** Dari PTN maupun PTS, untuk program magang, PKL, atau MBKM, asalkan jurusannya relevan dengan bidang kerja BRMP Penerapan.\n**2. Siswa (SMK):** Untuk kegiatan PKL yang sesuai dengan kebutuhan pembelajaran dan jurusannya.\n\nPendaftaran untuk keduanya harus melalui surat pengajuan resmi dari institusi (perguruan tinggi/sekolah) yang ditujukan kepada Kepala BRMP Penerapan.",
+                "Pendaftaran untuk program magang/PKL/MBKM dapat dilakukan dengan mengirimkan surat pengajuan resmi dari institusi Anda (Perguruan Tinggi atau SMK) yang ditujukan kepada Kepala BRMP Penerapan. Program ini terbuka untuk mahasiswa (negeri/swasta) dan siswa SMK yang memiliki jurusan yang relevan dengan bidang kerja di instansi kami.",
+                "BRMP Penerapan membuka kesempatan magang/PKL/MBKM bagi mahasiswa perguruan tinggi (negeri dan swasta) serta siswa SMK. Syarat utamanya adalah kesesuaian jurusan/program studi dengan bidang kerja di BRMP Penerapan. Prosedur pendaftaran wajib dilakukan secara resmi, yakni dengan mengajukan surat permohonan dari perguruan tinggi/sekolah kepada Kepala BRMP Penerapan.",
+                "Ya, bisa. Kami terbuka untuk mahasiswa (dari kampus negeri/swasta) yang ingin magang, PKL, atau MBKM, dan juga untuk siswa SMK yang ingin PKL. Syarat utamanya adalah jurusan Anda harus relevan. Silakan ajukan surat resmi dari kampus atau sekolah Anda, yang ditujukan langsung kepada Kepala BRMP Penerapan."
+            ]
+        },
+
+        {
+            "tag": "biaya-magnang-di-brmp-penerapan",
+            "patterns": [
+                "Apakah ada biaya untuk mengikuti magang di BRMP?",
+                "Biaya magang di BRMP Penerapan",
+                "Apakah saya harus membayar untuk mengikuti magang di BRMP Penerapan?",
+                "Apakah ada tarif untuk mengikuti magang di BRMP Penerapan?",
+                "Biaya magang di BRMP",
+                "Apakah ada tarif untuk mengikuti magang di BRMP Penerapan?",
+                "harga magang di BRMP Penerapan",
+                "Apakah ada harga magang di BRMP Penerapan?",
+                "magang di BRMP Penerapan bayar berapa",
+                "magang di BRMP Penerapan bayar ga",
+                "pkl di BRMP Penerapan bayar berapa",
+                "pkl di BRMP Penerapan bayar ga",
+                "apakah magang di brmp penerapan bayar",
+                "apakah pkl di brmp penerapan bayar"
+            ],
+            "responses": [
+                "BRMP Penerapan tidak memungut biaya apapun (gratis) untuk pelaksanaan PKL/magang. Namun, perlu diketahui bahwa peserta wajib menanggung sendiri kebutuhan sehari-hari selama program berlangsung.",
+                "Semua layanan dan bimbingan selama PKL/magang di BRMP Penerapan diberikan secara gratis. Peserta magang hanya perlu menanggung biaya kebutuhan pribadi dan akomodasi sehari-hari.",
+                "Tidak ada biaya yang dipungut oleh BRMP Penerapan untuk pelaksanaan PKL/magang. Seluruh biaya yang timbul untuk kebutuhan sehari-hari (seperti konsumsi, transportasi, akomodasi) menjadi tanggung jawab peserta magang.",
+                "Pelaksanaan PKL/magang di BRMP Penerapan bebas biaya. Akan tetapi, BRMP Penerapan tidak menyediakan tunjangan atau menanggung biaya hidup. Kebutuhan sehari-hari ditanggung oleh peserta.",
+                "Magang/PKL di sini gratis. Kami tidak memungut biaya, namun peserta menanggung sendiri semua biaya kebutuhan hariannya."
+            ]
+        },
+
+        {
+            "tag": "pembimbing-magang-brmp-penerapan",
+            "patterns": [
+                "Apakah peserta magang mendapatkan pembimbing?",
+                "Pembimbing magang di BRMP Penerapan",
+                "Apakah saya akan mendapatkan pembimbing selama magang di BRMP Penerapan?",
+                "Apakah peserta magang di BRMP Penerapan mendapatkan pembimbing?",
+                "Pembimbing magang",
+                "Apakah peserta magang di BRMP Penerapan akan mendapatkan pembimbing?",
+                "Apakah peserta magang di BRMP Penerapan diberi pembimbing?",
+                "apakah ada pendamping saat magang di BRMP Penerapan?",
+                "apakah ada pedamping saat magang",
+                "mentor magang",
+                "apakah ada mentor magang di BRMP Penerapan?"
+            ],
+            "responses": [
+                "Ya, benar. Setiap peserta akan mendapatkan seorang pembimbing yang ditunjuk dari pegawai BRMP Penerapan, disesuaikan dengan bidang penempatannya.",
+                "Tentu saja. Masing-masing peserta akan dibimbing langsung oleh pegawai BRMP Penerapan yang kompeten di bidangnya.",
+                "Ya. Sesuai prosedur, akan ditunjuk seorang pembimbing bagi setiap peserta dari internal pegawai BRMP Penerapan yang relevan dengan bidangnya.",
+                "Betul. Kami pastikan setiap peserta akan memiliki pembimbing dari pegawai BRMP Penerapan, yang akan disesuaikan dengan bidang magang/penelitiannya.",
+                "Ya, setiap peserta akan dapat pembimbing dari pegawai BRMP Penerapan sesuai bidangnya."
+            ]
+        },
+
+        {
+            "tag": "uang-saku-magang-di-brmp-penerapan",
+            "patterns": [
+                "Apakah BRMP menyediakan uang saku untuk peserta magang?",
+                "Uang saku magang di BRMP Penerapan",
+                "Apakah saya akan mendapatkan uang saku selama magang di BRMP Penerapan?",
+                "Apakah peserta magang di BRMP Penerapan mendapatkan uang saku?",
+                "Uang saku magang",
+                "Apakah peserta magang di BRMP Penerapan akan mendapatkan uang saku?",
+                "Apakah peserta magang di BRMP Penerapan diberi uang saku?",
+                "apakah ada uang saku saat magang di BRMP Penerapan?",
+                "apakah ada uang saku saat magang",
+                "apakah ada tunjangan untuk peserta magang di BRMP Penerapan?"
+            ],
+            "responses": [
+                "Tidak. Program magang/PKL/MBKM di BRMP Penerapan bersifat non-upah (unpaid) atau tidak mendapatkan gaji.",
+                "Mohon diperhatikan, status magang/PKL/MBKM di sini adalah non-upah (unpaid). Kami tidak menyediakan gaji atau honorarium untuk peserta.",
+                "Tidak. Sesuai ketentuan, pelaksanaan magang/PKL/MBKM di instansi kami bersifat non-upah (unpaid) dan tidak diberikan imbalan finansial.",
+                "Program magang/PKL/MBKM ini tidak mendapatkan upah (unpaid). Peserta tidak akan menerima gaji, namun akan mendapatkan bimbingan dan pengalaman kerja.",
+                "Tidak. Program ini bersifat non-upah (unpaid). Peserta magang tidak menerima gaji atau uang saku."
+            ]
+        },
+
+        {
+            "tag": "seragam-peserta-magang-di-brmp-penerapan",
+            "patterns": [
+                "Apakah peserta magang mendapat seragam?",
+                "Seragam peserta magang di BRMP Penerapan",
+                "Apakah saya akan mendapatkan seragam selama magang di BRMP Penerapan?",
+                "Apakah peserta magang di BRMP Penerapan mendapatkan seragam?",
+                "Seragam magang",
+                "Apakah peserta magang di BRMP Penerapan akan mendapatkan seragam?",
+                "Apakah peserta magang di BRMP Penerapan diberi seragam?",
+                "apakah ada seragam saat magang di BRMP Penerapan?",
+                "apakah ada seragam saat magang",
+                "apakah peserta magang di BRMP Penerapan dapat seragam?"
+            ],
+            "responses": [
+                "Tidak. Kami tidak menyediakan seragam khusus. Peserta diminta untuk selalu berpakaian rapi dan sopan. Penggunaan seragam kampus atau almamater diwajibkan saat ada ketentuan atau acara formal.",
+                "Tidak ada. Aturan pakaian utamanya adalah rapi dan sopan sesuai standar kantor. Namun, peserta wajib mengenakan seragam kampus atau almamater mereka pada saat acara formal.",
+                "Tidak. Peserta magang/PKL tidak diberikan seragam. Peserta wajib mengenakan pakaian yang rapi dan sopan. Adapun seragam kampus/almamater digunakan sesuai ketentuan, khususnya saat acara formal.",
+                "Kami tidak mewajibkan seragam khusus dari BRMP Penerapan. Cukup berpakaian rapi dan sopan setiap hari. Pengecualiannya adalah saat acara formal, di mana peserta diminta menggunakan seragam kampus atau almamater.",
+                "Tidak ada. Cukup berpakaian rapi dan sopan. Seragam kampus atau almamater hanya dipakai saat ada acara formal."
+            ]
+        },
+
+        {
+            "tag": "prosedur-kerjasama-brmp-penerapan",
+            "patterns": [
+                "Bagaimana prosedur mengajukan kerjasama ke BRMP Penerapan?",
+                "Prosedur kerjasama di BRMP Penerapan",
+                "Bagaimana cara mengajukan kerjasama ke BRMP Penerapan?",
+                "Bagaimana prosedur mengajukan kerjasama ke BRMP Penerapan?",
+                "Prosedur kerjasama",
+                "saya ingin mengajukan kerjasama ke BRMP Penerapan",
+                "bagaimana cara mengajukan kerjasama ke BRMP Penerapan",
+                "pengajuan kerja sama ke BRMP Penerapan",
+                "pengajuan kerja sama",
+                "prosedur pengajuan kerja sama"
+            ],
+            "responses": [
+                "Pihak yang berminat dapat mengajukan kerja sama melalui surat permohonan resmi yang ditujukan kepada Kepala BRMP Penerapan. Dalam surat tersebut, mohon cantumkan rincian tujuan, bentuk kerja sama yang diusulkan, serta rencana kegiatannya.",
+                "Silakan ajukan surat permohonan resmi kepada Kepala BRMP Penerapan. Agar dapat kami tindak lanjuti, surat permohonan tersebut sebaiknya menjelaskan secara detail mengenai tujuan, bentuk kerja sama yang diinginkan, dan rencana kegiatan.",
+                "Untuk mengajukan kerja sama, mohon siapkan surat permohonan resmi. Pastikan surat tersebut mencantumkan tujuan, bentuk kerja sama, dan rencana kegiatan. Surat tersebut ditujukan langsung kepada Kepala BRMP Penerapan.",
+                "Mekanisme pengajuan kerja sama adalah dengan menyampaikan surat permohonan resmi. Surat tersebut harap ditujukan kepada Kepala BRMP Penerapan serta memuat informasi mengenai tujuan, bentuk kerja sama yang diajukan, dan rencana kegiatan yang diusulkan.",
+                "Bagi pihak yang berminat menjalin kerja sama, silakan kirimkan surat permohonan resmi kepada Kepala BRMP Penerapan. Kami menyarankan agar surat tersebut merinci tujuan, bentuk kerja sama yang diharapkan, serta rencana kegiatannya."
+            ]
+        },
+
+        {
+            "tag": "aturan-khusus-magang-di-brmp-penerapan",
+            "patterns": [
+                "Apakah ada aturan khusus selama magang di BRMP Penerapan ?",
+                "Aturan khusus magang di BRMP Penerapan",
+                "Apakah saya harus mengikuti aturan khusus selama magang di BRMP Penerapan ?",
+                "Apakah peserta magang di BRMP Penerapan harus mengikuti aturan khusus ?",
+                "Aturan khusus magang",
+                "Apakah peserta magang di BRMP Penerapan harus mengikuti aturan khusus ?",
+                "Apakah ada peraturan khusus saat magang di BRMP Penerapan ?",
+                "apakah ada peraturan khusus saat magang",
+                "apakah ada aturan khusus saat magang di BRMP Penerapan ?",
+                "peraturan saat magang",
+                "peraturan magang"
+            ],
+            "responses": [
+                "Benar. Peserta magang memiliki kewajiban untuk mematuhi tata tertib, utamanya adalah kedisiplinan jam kerja, standar pakaian yang rapi, serta menjaga etika. Peserta juga wajib mengikuti arahan dari pembimbing yang telah ditunjuk.",
+                "Tentu. Selama magang, peserta diharapkan untuk disiplin terhadap jam kerja, selalu berpakaian rapi, dan menjaga etika dalam berinteraksi. Selain itu, poin terpenting adalah mengikuti arahan dan tugas yang diberikan oleh pembimbing.",
+                "Ya, ada. Aturan umumnya mencakup dua hal utama: Kedisiplinan, seperti menaati jam kerja dan mengikuti arahan pembimbing; serta Profesionalisme, yaitu berpakaian rapi dan menjaga etika."
+            ]
+        },
+
+        {
+            "tag": "batasan-akses-data-magang-di-brmp-penerapan",
+            "patterns": [
+                "Apakah peserta magang boleh mengakses semua data BRMP Penerapan ?",
+                "Batasan akses data magang di BRMP Penerapan",
+                "Apakah saya boleh mengakses semua data BRMP Penerapan selama magang ?",
+                "Apakah peserta magang di BRMP Penerapan boleh mengakses semua data ?",
+                "Batasan akses data brmp saat magang",
+                "apakah saya boleh mengakses semua data BRMP Penerapan selama magang ?",
+                "apakah peserta magang di BRMP Penerapan boleh mengakses semua data ?",
+                "apakah saya boleh mengakses data brmp penerapan saat magang ?",
+                "apakah peserta magang boleh mengakses data brmp penerapan ?",
+                "apakah ada batasan akses data brmp penerapan saat magang ?",
+                "apakah saya boleh menggunakan data brmp penerapan saat magang ?",
+                "apakah peserta magang boleh menggunakan data brmp penerapan ?",
+                "menggunakan data brmp penerapan saat magang"
+            ],
+            "responses": [
+                "Tidak. Kami hanya dapat memberikan data atau informasi yang termasuk dalam kategori publik. Data internal hanya dapat diakses sesuai izin dan prosedur yang berlaku.",
+                "Tidak. Sesuai ketentuan, layanan kami hanya mencakup data/informasi yang dikategorikan sebagai informasi publik. Akses terhadap data internal bersifat terbatas dan memerlukan izin resmi.",
+                "Tidak. Data internal hanya dapat diakses dengan izin khusus. Data yang dapat kami berikan kepada umum hanyalah data/informasi yang bersifat publik.",
+                "Tidak. Kami hanya menyediakan data yang berkategori publik. Data internal tidak dapat diakses umum dan memerlukan izin."
+            ]
+        },
+
+        {
+            "tag": "peserta-kunjungan-agroedukasi-brmp-penerapan",
+            "patterns": [
+                "Siapa saja yang bisa mengikuti kunjungan agroedukasi?",
+                "Peserta kunjungan agroedukasi di BRMP Penerapan",
+                "Siapa saja yang dapat mengikuti kunjungan agroedukasi di BRMP Penerapan?",
+                "Peserta kunjungan agroedukasi",
+                "siapa saja yang bisa ikut kunjungan agroedukasi di BRMP Penerapan?",
+                "siapa saja yang dapat ikut kunjungan agroedukasi di BRMP Penerapan?",
+                "siapa saja yang diperbolehkan ikut kunjungan agroedukasi di BRMP Penerapan?",
+                "peserta-kunjungan-agroedukasi",
+                "kunjungan-agroedukasi"
+            ],
+            "responses": [
+                "Layanan ini terbuka untuk berbagai kalangan, mulai dari institusi pendidikan (SD, SMP, SMA/SMK, dan perguruan tinggi), praktisi pertanian (kelompok tani), instansi pemerintah, komunitas, hingga masyarakat umum",
+                "Ya, layanan ini dapat diakses oleh siapa saja, termasuk dari lingkungan sekolah (SD, SMP, SMA/SMK), perguruan tinggi, kelompok tani, instansi pemerintah, berbagai komunitas, serta masyarakat umum.",
+                "Benar. Layanan ini dapat dimanfaatkan oleh berbagai pemangku kepentingan, yang mencakup institusi sekolah (SD/SMP/SMA/SMK), perguruan tinggi, kelompok tani, instansi pemerintah, komunitas, dan masyarakat umum.",
+                "Tentu. Kami membuka layanan ini untuk sekolah (mulai dari SD hingga SMA/SMK), perguruan tinggi, kelompok tani, instansi pemerintah, komunitas terkait, dan juga masyarakat umum secara luas."
+            ]
+        },
+
+        {
+            "tag": "mendaftar-kunjungan-agroedukasi-brmp-penerapan",
+            "patterns": [
+                "Bagaimana cara mendaftar kunjungan agroedukasi?",
+                "Mendaftar kunjungan agroedukasi di BRMP Penerapan",
+                "Bagaimana cara saya mendaftar kunjungan agroedukasi di BRMP Penerapan?",
+                "Mendaftar kunjungan agroedukasi",
+                "saya ingin mendaftar kunjungan agroedukasi di BRMP Penerapan",
+                "bagaimana cara mendaftar kunjungan agroedukasi di BRMP Penerapan",
+                "pendaftaran kunjungan agroedukasi",
+                "cara pendaftaran kunjungan agroedukasi",
+                "cara mendaftar kunjungan agroedukasi",
+                "daftar kunjungan agroedukasi"
+            ],
+            "responses": [
+                "Ada dua cara pengajuan: (1) Mengirimkan surat permohonan resmi ke BRMP Penerapan, atau (2) Menghubungi layanan informasi resmi kami (email/telepon). Pastikan Anda menyebutkan jumlah peserta, waktu, dan tujuan kunjungan.",
+                "eserta dapat mengajukan permohonan kunjungan dengan menyertakan detail jumlah peserta, waktu, dan tujuan kunjungan. Pengajuan ini dapat dilakukan melalui surat resmi ke BRMP Penerapan atau melalui layanan informasi resmi kami (email/telepon).",
+                "Pengajuan kunjungan dilakukan dengan menyampaikan surat permohonan resmi kepada BRMP Penerapan. Alternatifnya, permohonan dapat disampaikan melalui layanan informasi resmi (email/telepon), dengan wajib menginformasikan jumlah peserta, waktu pelaksanaan, dan tujuan kunjungan.",
+                "Silakan ajukan permohonan kunjungan Anda, baik melalui surat resmi yang ditujukan ke BRMP Penerapan, maupun melalui email atau telepon layanan informasi kami. Mohon sertakan informasi mengenai jumlah peserta, waktu kunjungan yang direncanakan, dan tujuannya."
+            ]
+        },
+
+        {
+            "tag": "pemandu-kunjungan-agroedukasi-brmp-penerapan",
+            "patterns": [
+                "Apakah ada pemandu selama kunjungan?",
+                "Pemandu kunjungan agroedukasi di BRMP Penerapan",
+                "Apakah saya akan didampingi pemandu selama kunjungan agroedukasi di BRMP Penerapan?",
+                "Apakah peserta kunjungan agroedukasi di BRMP Penerapan didampingi pemandu?",
+                "Pemandu kunjungan agroedukasi",
+                "Apakah peserta kunjungan agroedukasi di BRMP Penerapan akan didampingi pemandu?",
+                "Apakah peserta kunjungan agroedukasi di BRMP Penerapan diberi pemandu?",
+                "apakah ada pemandu saat kunjungan agroedukasi di BRMP Penerapan?",
+                "apakah ada pemandu saat kunjungan agroedukasi",
+                "apakah ada pendamping saat kunjungan agroedukasi di BRMP Penerapan?",
+                "apakah ada pendamping saat kunjungan agroedukasi",
+                "pemandu kunjungan agroedukasi"
+            ],
+            "responses": [
+                "Ya, benar. BRMP Penerapan akan menugaskan seorang pemandu atau pendamping yang kompeten untuk menjelaskan materi sekaligus memandu kegiatan Anda di lapangan.",
+                "Betul. Kunjungan Anda akan didampingi oleh pemandu dari BRMP Penerapan yang akan bertugas menjelaskan materi dan memimpin kegiatan di lapangan.",
+                "Ya. Kami menyediakan pemandu/pendamping bagi pengunjung, yang akan memberikan penjelasan materi serta memandu jalannya kegiatan di lapangan.",
+                "Tentu saja. Nantinya akan ada pemandu/pendamping dari pihak kami yang akan membantu menjelaskan materi terkait dan memandu aktivitas selama di lapangan.",
+                "Ya, kami menyediakan pemandu/pendamping untuk menjelaskan materi dan memandu kegiatan lapangan."
+            ]
         }
+
+
     ]
-}
+}   
